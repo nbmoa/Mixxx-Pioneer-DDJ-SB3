@@ -377,7 +377,7 @@
       <control>
         <group>[Channel1]</group>
         <key>PioneerDDJSB3.jogTouch</key>
-        <description>Jog touch (Vinyl Mode) Deck 1, left JOGDIAL (Deck 1 active)</description>
+        <description>Jog touch Deck 1, left JOGDIAL (Deck 1 active)</description>
         <status>0x90</status>
         <midino>0x36</midino>
         <options>
@@ -387,7 +387,7 @@
       <control>
         <group>[Channel2]</group>
         <key>PioneerDDJSB3.jogTouch</key>
-        <description>Jog touch (Vinyl Mode) Deck 2, right JOGDIAL (Deck 2 active)</description>
+        <description>Jog touch Deck 2, right JOGDIAL (Deck 2 active)</description>
         <status>0x91</status>
         <midino>0x36</midino>
         <options>
@@ -397,7 +397,7 @@
       <control>
         <group>[Channel3]</group>
         <key>PioneerDDJSB3.jogTouch</key>
-        <description>Jog touch (Vinyl Mode) Deck 3, left JOGDIAL (Deck 3 active)</description>
+        <description>Jog touch Deck 3, left JOGDIAL (Deck 3 active)</description>
         <status>0x92</status>
         <midino>0x36</midino>
         <options>
@@ -407,49 +407,9 @@
       <control>
         <group>[Channel4]</group>
         <key>PioneerDDJSB3.jogTouch</key>
-        <description>Jog touch (Vinyl Mode) Deck 4, right JOGDIAL (Deck 4 active)</description>
+        <description>Jog touch Deck 4, right JOGDIAL (Deck 4 active)</description>
         <status>0x93</status>
         <midino>0x36</midino>
-        <options>
-          <script-binding />
-        </options>
-      </control>
-      <control>
-        <group>[Channel1]</group>
-        <key>PioneerDDJSB3.jogTouch</key>
-        <description>Jog touch (No Vinyl Mode) Deck 1, left JOGDIAL (Deck 1 active)</description>
-        <status>0x90</status>
-        <midino>0x35</midino>
-        <options>
-          <script-binding />
-        </options>
-      </control>
-      <control>
-        <group>[Channel2]</group>
-        <key>PioneerDDJSB3.jogTouch</key>
-        <description>Jog touch (No Vinyl Mode) Deck 2, right JOGDIAL (Deck 2 active)</description>
-        <status>0x91</status>
-        <midino>0x35</midino>
-        <options>
-          <script-binding />
-        </options>
-      </control>
-      <control>
-        <group>[Channel3]</group>
-        <key>PioneerDDJSB3.jogTouch</key>
-        <description>Jog touch (No Vinyl Mode) Deck 3, left JOGDIAL (Deck 3 active)</description>
-        <status>0x92</status>
-        <midino>0x35</midino>
-        <options>
-          <script-binding />
-        </options>
-      </control>
-      <control>
-        <group>[Channel4]</group>
-        <key>PioneerDDJSB3.jogTouch</key>
-        <description>Jog touch (No Vinyl Mode) Deck 4, right JOGDIAL (Deck 4 active)</description>
-        <status>0x93</status>
-        <midino>0x35</midino>
         <options>
           <script-binding />
         </options>
@@ -738,86 +698,6 @@
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>PioneerDDJSB3.vinylButton</key>
-        <description>Vinyl Deck 1, Button: left VINYL (Deck 1 active)</description>
-        <status>0x90</status>
-        <midino>0x17</midino>
-        <options>
-          <script-binding />
-        </options>
-      </control>
-      <control>
-        <group>[Channel2]</group>
-        <key>PioneerDDJSB3.vinylButton</key>
-        <description>Vinyl Deck 2, Button: right VINYL (Deck 2 active)</description>
-        <status>0x91</status>
-        <midino>0x17</midino>
-        <options>
-          <script-binding />
-        </options>
-      </control>
-      <control>
-        <group>[Channel3]</group>
-        <key>PioneerDDJSB3.vinylButton</key>
-        <description>Vinyl Deck 3, Button: left VINYL (Deck 3 active)</description>
-        <status>0x92</status>
-        <midino>0x17</midino>
-        <options>
-          <script-binding />
-        </options>
-      </control>
-      <control>
-        <group>[Channel4]</group>
-        <key>PioneerDDJSB3.vinylButton</key>
-        <description>Vinyl Deck 4, Button: right VINYL (Deck 4 active)</description>
-        <status>0x93</status>
-        <midino>0x17</midino>
-        <options>
-          <script-binding />
-        </options>
-      </control>
-      <control>
-        <group>[Channel1]</group>
-        <key>PioneerDDJSB3.slipButton</key>
-        <description>Slip Deck 1, Button: SHIFT left VINYL (Deck 1 active)</description>
-        <status>0x90</status>
-        <midino>0x4E</midino>
-        <options>
-          <script-binding />
-        </options>
-      </control>
-      <control>
-        <group>[Channel2]</group>
-        <key>PioneerDDJSB3.slipButton</key>
-        <description>Slip Deck 2, Button: SHIFT right VINYL (Deck 2 active)</description>
-        <status>0x91</status>
-        <midino>0x4E</midino>
-        <options>
-          <script-binding />
-        </options>
-      </control>
-      <control>
-        <group>[Channel3]</group>
-        <key>PioneerDDJSB3.slipButton</key>
-        <description>Slip Deck 3, Button: SHIFT left VINYL (Deck 3 active)</description>
-        <status>0x92</status>
-        <midino>0x4E</midino>
-        <options>
-          <script-binding />
-        </options>
-      </control>
-      <control>
-        <group>[Channel4]</group>
-        <key>PioneerDDJSB3.slipButton</key>
-        <description>Slip Deck 4, Button: SHIFT right VINYL (Deck 4 active)</description>
-        <status>0x93</status>
-        <midino>0x4E</midino>
-        <options>
-          <script-binding />
-        </options>
-      </control>
-      <control>
-        <group>[Channel1]</group>
         <key>PioneerDDJSB3.keyLockButton</key>
         <description>Key lock Deck 1, Button: left KEYLOCK (Deck 1 active)</description>
         <status>0x90</status>
@@ -938,8 +818,88 @@
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>PioneerDDJSB3.deck3Button</key>
-        <description>Toggles Deck 3 Button</description>
+        <key>PioneerDDJSB3.vinylButton</key>
+        <description>Vinyl Deck 1, Button: left VINYL (Deck 1 active)</description>
+        <status>0x90</status>
+        <midino>0x17</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>PioneerDDJSB3.vinylButton</key>
+        <description>Vinyl Deck 2, Button: right VINYL (Deck 2 active)</description>
+        <status>0x91</status>
+        <midino>0x17</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>PioneerDDJSB3.vinylButton</key>
+        <description>Vinyl Deck 3, Button: left VINYL (Deck 3 active)</description>
+        <status>0x92</status>
+        <midino>0x17</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>PioneerDDJSB3.vinylButton</key>
+        <description>Vinyl Deck 4, Button: right VINYL (Deck 4 active)</description>
+        <status>0x93</status>
+        <midino>0x17</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>PioneerDDJSB3.slipButton</key>
+        <description>Slip Deck 1, Button: SHIFT left VINYL (Deck 1 active)</description>
+        <status>0x90</status>
+        <midino>0x40</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>PioneerDDJSB3.slipButton</key>
+        <description>Slip Deck 2, Button: SHIFT right VINYL (Deck 2 active)</description>
+        <status>0x91</status>
+        <midino>0x40</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>PioneerDDJSB3.slipButton</key>
+        <description>Slip Deck 3, Button: SHIFT left VINYL (Deck 3 active)</description>
+        <status>0x92</status>
+        <midino>0x40</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>PioneerDDJSB3.slipButton</key>
+        <description>Slip Deck 4, Button: SHIFT right VINYL (Deck 4 active)</description>
+        <status>0x93</status>
+        <midino>0x40</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>PioneerDDJSB3.deck3ButtonChan1</key>
+        <description>Toggles Deck 3 Button - Channel 1</description>
         <status>0x90</status>
         <midino>0x72</midino>
         <options>
@@ -948,9 +908,29 @@
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>PioneerDDJSB3.deck4Button</key>
-        <description>Toggles Deck 4 Button</description>
+        <key>PioneerDDJSB3.deck4ButtonChan2</key>
+        <description>Toggles Deck 4 Button - Channel 2</description>
         <status>0x91</status>
+        <midino>0x72</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>PioneerDDJSB3.deck3ButtonChan3</key>
+        <description>Toggles Deck 3 Button - Channel 3</description>
+        <status>0x92</status>
+        <midino>0x72</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>PioneerDDJSB3.deck4ButtonChan4</key>
+        <description>Toggles Deck 4 Button - Channel 4</description>
+        <status>0x93</status>
         <midino>0x72</midino>
         <options>
           <script-binding />
@@ -994,6 +974,246 @@
         <midino>0x73</midino>
         <options>
           <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>beatloop_activate</key>
+        <description>AutoLoop - Channel 1</description>
+        <status>0x90</status>
+        <midino>0x14</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>beatloop_activate</key>
+        <description>AutoLoop - Channel 2</description>
+        <status>0x91</status>
+        <midino>0x14</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>beatloop_activate</key>
+        <description>AutoLoop - Channel 3</description>
+        <status>0x92</status>
+        <midino>0x14</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>beatloop_activate</key>
+        <description>AutoLoop - Channel 4</description>
+        <status>0x93</status>
+        <midino>0x14</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>reloop_toggle</key>
+        <description>ReLoop - Channel 1</description>
+        <status>0x90</status>
+        <midino>0x50</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>reloop_toggle</key>
+        <description>ReLoop - Channel 2</description>
+        <status>0x91</status>
+        <midino>0x50</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>reloop_toggle</key>
+        <description>ReLoop - Channel 3</description>
+        <status>0x92</status>
+        <midino>0x50</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>reloop_toggle</key>
+        <description>ReLoop - Channel 4</description>
+        <status>0x93</status>
+        <midino>0x50</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>loop_halve</key>
+        <description>HalveLoop - Channel 1</description>
+        <status>0x90</status>
+        <midino>0x12</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>loop_halve</key>
+        <description>HalveLoop - Channel 2</description>
+        <status>0x91</status>
+        <midino>0x12</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>loop_halve</key>
+        <description>HalveLoop - Channel 3</description>
+        <status>0x92</status>
+        <midino>0x12</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>loop_halve</key>
+        <description>HalveLoop - Channel 4</description>
+        <status>0x93</status>
+        <midino>0x12</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>loop_in</key>
+        <description>InLoop - Channel 1</description>
+        <status>0x90</status>
+        <midino>0x61</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>loop_in</key>
+        <description>InLoop - Channel 2</description>
+        <status>0x91</status>
+        <midino>0x61</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>loop_in</key>
+        <description>InLoop - Channel 3</description>
+        <status>0x92</status>
+        <midino>0x61</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>loop_in</key>
+        <description>InLoop - Channel 4</description>
+        <status>0x93</status>
+        <midino>0x61</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>loop_double</key>
+        <description>DoubleLoop - Channel 1</description>
+        <status>0x90</status>
+        <midino>0x13</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>loop_double</key>
+        <description>DoubleLoop - Channel 2</description>
+        <status>0x91</status>
+        <midino>0x13</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>loop_double</key>
+        <description>DoubleLoop - Channel 3</description>
+        <status>0x92</status>
+        <midino>0x13</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>loop_double</key>
+        <description>DoubleLoop - Channel 4</description>
+        <status>0x93</status>
+        <midino>0x13</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>loop_out</key>
+        <description>OutLoop - Channel 1</description>
+        <status>0x90</status>
+        <midino>0x62</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>loop_out</key>
+        <description>OutLoop - Channel 2</description>
+        <status>0x91</status>
+        <midino>0x62</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>loop_out</key>
+        <description>OutLoop - Channel 3</description>
+        <status>0x92</status>
+        <midino>0x62</midino>
+        <options>
+          <normal/>
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>loop_out</key>
+        <description>OutLoop - Channel 4</description>
+        <status>0x93</status>
+        <midino>0x62</midino>
+        <options>
+          <normal/>
         </options>
       </control>
       <control>
@@ -1578,20 +1798,60 @@
       </control>
       <control>
         <group>[Master]</group>
-        <key>headMix</key>
-        <description>Head mix (MSB), Knob: HEADPHONES MIX</description>
+        <key>PioneerDDJSB3.masterCueButton</key>
+        <description>Master Cue Button</description>
+        <status>0x96</status>
+        <midino>0x5B</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Master]</group>
+        <key>PioneerDDJSB3.shiftMasterCueButton</key>
+        <description>Master Cue Button with Shift</description>
+        <status>0x96</status>
+        <midino>0x78</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Master]</group>
+        <key>gain</key>
+        <description>Master level (MSB), Knob: MASTER LEVEL</description>
         <status>0xB6</status>
-        <midino>0x05</midino>
+        <midino>0x08</midino>
         <options>
           <fourteen-bit-msb />
         </options>
       </control>
       <control>
         <group>[Master]</group>
-        <key>headMix</key>
-        <description>Head mix (MSB), Knob: HEADPHONES MIX</description>
+        <key>gain</key>
+        <description>Master level (LSB), Knob: MASTER LEVEL</description>
         <status>0xB6</status>
-        <midino>0x25</midino>
+        <midino>0x28</midino>
+        <options>
+          <fourteen-bit-lsb />
+        </options>
+      </control>
+      <control>
+        <group>[Master]</group>
+        <key>headGain</key>
+        <description>headphone level (MSB), Knob: MASTER LEVEL</description>
+        <status>0xB6</status>
+        <midino>0x0D</midino>
+        <options>
+          <fourteen-bit-msb />
+        </options>
+      </control>
+      <control>
+        <group>[Master]</group>
+        <key>headGain</key>
+        <description>headphone level (LSB), Knob: MASTER LEVEL</description>
+        <status>0xB6</status>
+        <midino>0x2D</midino>
         <options>
           <fourteen-bit-lsb />
         </options>
@@ -1853,7 +2113,7 @@
         <status>0x96</status>
         <midino>0x58</midino>
         <options>
-          <normal />
+          <normal/>
         </options>
       </control>
       <control>
@@ -4357,6 +4617,43 @@
         </options>
       </control>
     </controls>
-    <outputs />
+    <outputs>
+      <output>
+        <group>[Channel1]</group>
+        <key>loop_enabled</key>
+        <description>Indication if loop is enabled - Deck 1</description>
+        <status>0x90</status>
+        <midino>0x14</midino>
+        <on>0x7f</on>
+        <minimum>0.1</minimum>
+      </output>
+      <output>
+        <group>[Channel2]</group>
+        <key>loop_enabled</key>
+        <description>Indication if loop is enabled - Deck 2</description>
+        <status>0x91</status>
+        <midino>0x14</midino>
+        <on>0x7f</on>
+        <minimum>0.1</minimum>
+      </output>
+      <output>
+        <group>[Channel3]</group>
+        <key>loop_enabled</key>
+        <description>Indication if loop is enabled - Deck 3</description>
+        <status>0x92</status>
+        <midino>0x14</midino>
+        <on>0x7f</on>
+        <minimum>0.1</minimum>
+      </output>
+      <output>
+        <group>[Channel4]</group>
+        <key>loop_enabled</key>
+        <description>Indication if loop is enabled - Deck 4</description>
+        <status>0x93</status>
+        <midino>0x14</midino>
+        <on>0x7f</on>
+        <minimum>0.1</minimum>
+      </output>
+    </outputs>
   </controller>
 </MixxxControllerPreset>

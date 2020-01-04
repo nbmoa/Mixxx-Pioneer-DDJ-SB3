@@ -155,7 +155,7 @@ PioneerDDJSB3.init = function (id) {
         'play': 0x0B,
         'shiftPlay': 0x47,
         'vinyl': 0x17,
-        'shiftVinyl': 0x4E,
+        'shiftVinyl': 0x40,
         'sync': 0x58,
         'shiftSync': 0x5C
     };
@@ -186,8 +186,9 @@ PioneerDDJSB3.init = function (id) {
         PioneerDDJSB3.vu_meter_timer = engine.beginTimer(100, "PioneerDDJSB3.vuMeterTwinkle()");
     }
 
-    // request the positions of the knobs and faders from the controller
-    midi.sendShortMsg(0x9B, 0x09, 0x7f);
+    // init deck 
+    var sysex = [ 0xf0, 0x00, 0x20, 0x7f, 0x03, 0x01, 0xf7 ];
+    midi.sendSysexMsg(sysex, sysex.length);
 };
 
 PioneerDDJSB3.Deck = function (deckNumber) {
@@ -489,7 +490,6 @@ PioneerDDJSB3.autodjToggle = function (channel, control, value, status, group) {
     }
 };
 
-
 ///////////////////////////////////////////////////////////////
 //                      CONTROL BINDING                      //
 ///////////////////////////////////////////////////////////////
@@ -654,6 +654,12 @@ PioneerDDJSB3.headphoneShiftCueButton = function (channel, control, value, statu
     }
 };
 
+PioneerDDJSB3.masterCueButton = function (channel, control, value, status, group) {
+    if (value) {
+//        script.toggleControl(group, 'pfl');
+    }
+};
+
 PioneerDDJSB3.hotCueButtons = function (channel, control, value, status, group) {
     var hotCueIndex = (control >= 0x40 ? control - 0x40 + 5 : control + 1);
     engine.setValue(PioneerDDJSB3.deckSwitchTable[group], 'hotcue_' + hotCueIndex + '_activate', value);
@@ -709,20 +715,27 @@ PioneerDDJSB3.shiftKeyLockButton = function (channel, control, value, status, gr
     }
 };
 
-PioneerDDJSB3.deck3Button = function (channel, control, value, status, group) {
+PioneerDDJSB3.deck3ButtonChan1 = function (channel, control, value, status, group) {
     printObject("deck3button: " + "channel=" + channel + ", control=" + control + ", value=" + value + ", status=" + status + ", control=" + group);
-    if (value > 0) {
-        //pressed
-        midi.sendShortMsg(0x90, 0x72, 0x7f);
-        midi.sendShortMsg(0x90, 0x73, 0x7f);
+    if (value) {
     }
 };
 
-PioneerDDJSB3.deck4Button = function (channel, control, value, status, group) {
+PioneerDDJSB3.deck3ButtonChan3 = function (channel, control, value, status, group) {
     printObject("deck3button: " + "channel=" + channel + ", control=" + control + ", value=" + value + ", status=" + status + ", control=" + group);
     if (value > 0) {
-        midi.sendShortMsg(0x91, 0x72, 0x7f);
-        midi.sendShortMsg(0x91, 0x73, 0x7f);
+    }
+};
+
+PioneerDDJSB3.deck4ButtonChan2 = function (channel, control, value, status, group) {
+    printObject("deck3button: " + "channel=" + channel + ", control=" + control + ", value=" + value + ", status=" + status + ", control=" + group);
+    if (value > 0) {
+    }
+};
+
+PioneerDDJSB3.deck4ButtonChan4 = function (channel, control, value, status, group) {
+    printObject("deck3button: " + "channel=" + channel + ", control=" + control + ", value=" + value + ", status=" + status + ", control=" + group);
+    if (value > 0) {
     }
 };
 
@@ -842,8 +855,9 @@ PioneerDDJSB3.nonPadLedControl = function (deck, ledNumber, active) {
 ///////////////////////////////////////////////////////////////
 
 PioneerDDJSB3.headphoneCueLed = function (value, group, control) {
+    printObject("headphoneCueLed: " + "control=" + control + ", value=" + value + ", group=" + group);
     PioneerDDJSB3.nonPadLedControl(group, PioneerDDJSB3.nonPadLeds.headphoneCue, value);
-    PioneerDDJSB3.nonPadLedControl(group, PioneerDDJSB3.nonPadLeds.shiftHeadphoneCue, value);
+    PioneerDDJSB3.nonPadLedControl(PioneerDDJSB3.deckShiftSwitchTable[group], PioneerDDJSB3.nonPadLeds.shiftHeadphoneCue, value);
 };
 
 PioneerDDJSB3.keyLockLed = function (value, group, control) {
