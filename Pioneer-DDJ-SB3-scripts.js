@@ -228,6 +228,16 @@ PioneerDDJSB3.Deck = function (deckNumber) {
         sendShifted: true,
     });
 
+    this.loopButton = function (channel, control, value, status, group) {
+        if (value) {
+            if (engine.getValue(group, "loop_enabled")) {
+              engine.setValue(group, "reloop_toggle", 1);
+            } else {
+              engine.setValue(group, "beatloop_activate", 1);
+            }
+        }
+    };
+
     var effectUnitNumber = deckNumber;
     if (deckNumber > 2) {
         effectUnitNumber -= 2;
