@@ -2258,6 +2258,326 @@
       </control>
       <control>
         <group>[Channel1]</group>
+        <key>PioneerDDJSB3.hotCueMode</key>
+        <description>Hot-Cue mode Deck 1</description>
+        <status>0x90</status>
+        <midino>0x1B</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>PioneerDDJSB3.hotCueMode</key>
+        <description>Hot-Cue mode Deck 2</description>
+        <status>0x91</status>
+        <midino>0x1B</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>PioneerDDJSB3.hotCueMode</key>
+        <description>Hot-Cue mode Deck 3</description>
+        <status>0x92</status>
+        <midino>0x1B</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>PioneerDDJSB3.hotCueMode</key>
+        <description>Hot-Cue mode Deck 4</description>
+        <status>0x93</status>
+        <midino>0x1B</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>PioneerDDJSB3.shiftHotCueMode</key>
+        <description>Shift Hot-Cue mode Deck 1</description>
+        <status>0x90</status>
+        <midino>0x69</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>PioneerDDJSB3.shiftHotCueMode</key>
+        <description>Shift Hot-Cue mode Deck 2</description>
+        <status>0x91</status>
+        <midino>0x69</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>PioneerDDJSB3.shiftHotCueMode</key>
+        <description>Shift Hot-Cue mode Deck 3</description>
+        <status>0x92</status>
+        <midino>0x69</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>PioneerDDJSB3.shiftHotCueMode</key>
+        <description>Shift Hot-Cue mode Deck 4</description>
+        <status>0x93</status>
+        <midino>0x69</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>PioneerDDJSB3.fadeMixMode</key>
+        <description>Fade-Mix mode Deck 1</description>
+        <status>0x90</status>
+        <midino>0x1E</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>PioneerDDJSB3.fadeMixMode</key>
+        <description>Fade-Mix mode Deck 2</description>
+        <status>0x91</status>
+        <midino>0x1E</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>PioneerDDJSB3.fadeMixMode</key>
+        <description>Fade-Mix mode Deck 3</description>
+        <status>0x92</status>
+        <midino>0x1E</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>PioneerDDJSB3.fadeMixMode</key>
+        <description>Fade-Mix mode Deck 4</description>
+        <status>0x93</status>
+        <midino>0x1E</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>PioneerDDJSB3.shiftFadeMixMode</key>
+        <description>Shift Fade-Mix mode Deck 1</description>
+        <status>0x90</status>
+        <midino>0x6B</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>PioneerDDJSB3.shiftFadeMixMode</key>
+        <description>Shift Fade-Mix mode Deck 2</description>
+        <status>0x91</status>
+        <midino>0x6B</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>PioneerDDJSB3.shiftFadeMixMode</key>
+        <description>Shift Fade-Mix mode Deck 3</description>
+        <status>0x92</status>
+        <midino>0x6B</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>PioneerDDJSB3.shiftFadeMixMode</key>
+        <description>Shift Fade-Mix mode Deck 4</description>
+        <status>0x93</status>
+        <midino>0x6B</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>PioneerDDJSB3.padScratchMode</key>
+        <description>Pad-Scratch mode Deck 1</description>
+        <status>0x90</status>
+        <midino>0x20</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>PioneerDDJSB3.padScratchMode</key>
+        <description>Pad-Scratch mode Deck 2</description>
+        <status>0x91</status>
+        <midino>0x20</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>PioneerDDJSB3.padScratchMode</key>
+        <description>Pad-Scratch mode Deck 3</description>
+        <status>0x92</status>
+        <midino>0x20</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>PioneerDDJSB3.padScratchMode</key>
+        <description>Pad-Scratch mode Deck 4</description>
+        <status>0x93</status>
+        <midino>0x20</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>PioneerDDJSB3.shiftPadScratchMode</key>
+        <description>Shift Pad-Scratch mode Deck 1</description>
+        <status>0x90</status>
+        <midino>0x6D</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>PioneerDDJSB3.shiftPadScratchMode</key>
+        <description>Shift Pad-Scratch mode Deck 2</description>
+        <status>0x91</status>
+        <midino>0x6D</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>PioneerDDJSB3.shiftPadScratchMode</key>
+        <description>Shift Pad-Scratch mode Deck 3</description>
+        <status>0x92</status>
+        <midino>0x6D</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>PioneerDDJSB3.shiftPadScratchMode</key>
+        <description>Shift Pad-Scratch mode Deck 4</description>
+        <status>0x93</status>
+        <midino>0x6D</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>PioneerDDJSB3.samplerMode</key>
+        <description>Sampler mode Deck 1</description>
+        <status>0x90</status>
+        <midino>0x22</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>PioneerDDJSB3.samplerMode</key>
+        <description>Sampler mode Deck 2</description>
+        <status>0x91</status>
+        <midino>0x22</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>PioneerDDJSB3.samplerMode</key>
+        <description>Sampler mode Deck 3</description>
+        <status>0x92</status>
+        <midino>0x22</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>PioneerDDJSB3.samplerMode</key>
+        <description>Sampler mode Deck 4</description>
+        <status>0x93</status>
+        <midino>0x22</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
+        <key>PioneerDDJSB3.shiftSamplerMode</key>
+        <description>Shift Sampler mode Deck 1</description>
+        <status>0x90</status>
+        <midino>0x6E</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel2]</group>
+        <key>PioneerDDJSB3.shiftSamplerMode</key>
+        <description>Shift Sampler mode Deck 2</description>
+        <status>0x91</status>
+        <midino>0x6E</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel3]</group>
+        <key>PioneerDDJSB3.shiftSamplerMode</key>
+        <description>Shift Sampler mode Deck 3</description>
+        <status>0x92</status>
+        <midino>0x6E</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel4]</group>
+        <key>PioneerDDJSB3.shiftSamplerMode</key>
+        <description>Shift Sampler mode Deck 4</description>
+        <status>0x93</status>
+        <midino>0x6E</midino>
+        <options>
+          <script-binding />
+        </options>
+      </control>
+      <control>
+        <group>[Channel1]</group>
         <key>PioneerDDJSB3.hotCueButtons</key>
         <description>Hot-Cue 1 Deck 1, Button: PAD1 (in HOT-CUE-Mode, Deck 1 active)</description>
         <status>0x97</status>
