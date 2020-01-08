@@ -791,7 +791,6 @@ PioneerDDJSB3.loopMoveBackButton = function (channel, control, value, status, gr
 };
 
 PioneerDDJSB3.loopMoveForwardButton = function (channel, control, value, status, group) {
-    if Pio
     if (value) {
         engine.setValue(PioneerDDJSB3.deckSwitchTable[group], 'loop_move', 1);
     }
@@ -1038,7 +1037,7 @@ PioneerDDJSB3.jogRingTick = function (channel, control, value, status, group) {
 };
 
 PioneerDDJSB3.jogRingTickShift = function (channel, control, value, status, group) {
-    if (PioneerDDJSB3.getJogWheelDelta(value) > 0 {
+    if (PioneerDDJSB3.getJogWheelDelta(value) > 0) {
         engine.setValue(group, "beats_translate_earlier", 1);  
     } else {
         engine.setValue(group, "beats_translate_later", 1);  
@@ -1126,7 +1125,7 @@ PioneerDDJSB3.getRotaryDelta = function (value) {
 PioneerDDJSB3.rotarySelector = function (channel, control, value, status) {
     var delta = PioneerDDJSB3.getRotaryDelta(value);
     if (PioneerDDJSB3.trackPreviewActive) {
-        engine.setValue('[PreviewDeck1]', 'playposition', delta * PioneerDDJSB3.deltaPreviewPosition + engine.setValue('[PreviewDeck1]', 'playposition'));
+        engine.setValue('[PreviewDeck1]', 'playposition', delta * PioneerDDJSB3.deltaPreviewPosition + engine.getValue('[PreviewDeck1]', 'playposition'));
     } else {
         engine.setValue('[Playlist]', 'SelectTrackKnob', delta);
     }
@@ -1154,6 +1153,50 @@ PioneerDDJSB3.rotarySelectorShiftedClick = function (channel, control, value, st
         engine.setValue('[Playlist]', 'ToggleSelectedSidebarItem', 1);
     }
 };
+
+
+// MOA TBD
+//
+PioneerDDJSB3.shiftHotCueMode = function (channel, control, value, status) {
+    if (value) {
+      midi.sendShortMsg(0x90 + channel, 0x69,0x7f);
+    }
+};
+PioneerDDJSB3.shiftFadeMixMode = function (channel, control, value, status) {
+    if (value) {
+      midi.sendShortMsg(0x90 + channel, 0x6B,0x7f);
+    }
+};
+PioneerDDJSB3.shiftPadScratchMode = function (channel, control, value, status) {
+    if (value) {
+      midi.sendShortMsg(0x90 + channel, 0x6D,0x7f);
+    }
+};
+PioneerDDJSB3.shiftSamplerMode = function (channel, control, value, status) {
+    if (value) {
+    }
+};
+
+PioneerDDJSB3.hotCueMode = function (channel, control, value, status) {
+    if (value) {
+      midi.sendShortMsg(0x90 + channel, 0x69,0x7f);
+    }
+};
+PioneerDDJSB3.fadeMixMode = function (channel, control, value, status) {
+    if (value) {
+      midi.sendShortMsg(0x90 + channel, 0x6B,0x7f);
+    }
+};
+PioneerDDJSB3.padScratchMode = function (channel, control, value, status) {
+    if (value) {
+      midi.sendShortMsg(0x90 + channel, 0x6D,0x7f);
+    }
+};
+PioneerDDJSB3.samplerMode = function (channel, control, value, status) {
+    if (value) {
+    }
+};
+
 
 // MOA DONE
 // MOA TBD Show which Effect is enabled if shift is pressed and if shift is pressed pressing the buttons should enable/disable the effect
