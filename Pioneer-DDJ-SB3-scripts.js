@@ -1366,7 +1366,11 @@ PioneerDDJSB3.shiftSamplerMode = function (channel, control, value, status) {
 
 PioneerDDJSB3.hotCueMode = function (channel, control, value, status) {
     if (value) {
-//      midi.sendShortMsg(0x90 + channel, 0x69,0x7f);
+      for (hotCueNum = 1; hotCueNum <= 8; hotCueNum++) {
+          var cueEnabled = engine.getValue('[Channel' + (channel + 1) + ']', 'hotcue_' + hotCueNum + '_enabled');
+          padNum = (hotCueNum - 1);
+          PioneerDDJSB3.padLedControl('[Channel' + (channel + 1) + ']', PioneerDDJSB3.ledGroups.hotCue, padNum, false, cueEnabled);
+      }
     }
 };
 PioneerDDJSB3.fadeMixMode = function (channel, control, value, status) {
@@ -1381,6 +1385,11 @@ PioneerDDJSB3.padScratchMode = function (channel, control, value, status) {
 };
 PioneerDDJSB3.samplerMode = function (channel, control, value, status) {
     if (value) {
+      for (samplerNum = 1; samplerNum <= 8; samplerNum++) {
+          var samplerEnabled = engine.getValue('[Sampler' + samplerNum + ']', 'play');
+          var padNum = (samplerNum - 1);
+          PioneerDDJSB3.padLedControl('[Channel' + (channel + 1) + ']', PioneerDDJSB3.ledGroups.sampler, padNum, false, samplerEnabled);
+      }
     }
 };
 
