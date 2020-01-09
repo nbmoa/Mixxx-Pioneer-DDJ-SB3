@@ -1278,7 +1278,7 @@
       </control>
       <control>
         <group>[EffectRack1_EffectUnit1]</group>
-        <key>PioneerDDJSB3.effectUnit[1].effect[1].knob.inputMSB</key>
+        <key>PioneerDDJSB3.effectUnit[1].knob.inputMSB</key>
         <description>FX1-1 (MSB), Knob: left FX1</description>
         <status>0xB4</status>
         <midino>0x02</midino>
@@ -1288,7 +1288,7 @@
       </control>
       <control>
         <group>[EffectRack1_EffectUnit1]</group>
-        <key>PioneerDDJSB3.effectUnit[1].effect[1].knob.inputLSB</key>
+        <key>PioneerDDJSB3.effectUnit[1].knob.inputLSB</key>
         <description>FX1-1 (LSB), Knob: left FX1</description>
         <status>0xB4</status>
         <midino>0x22</midino>
@@ -1298,7 +1298,7 @@
       </control>
       <control>
         <group>[EffectRack1_EffectUnit1]</group>
-        <key>PioneerDDJSB3.effectUnit[1].effect[2].knob.inputMSB</key>
+        <key>PioneerDDJSB3.effectUnit[1].knob.inputMSB</key>
         <description>FX1-2 (MSB), Knob: left FX1</description>
         <status>0xB4</status>
         <midino>0x04</midino>
@@ -1308,7 +1308,7 @@
       </control>
       <control>
         <group>[EffectRack1_EffectUnit1]</group>
-        <key>PioneerDDJSB3.effectUnit[1].effect[2].knob.inputLSB</key>
+        <key>PioneerDDJSB3.effectUnit[1].knob.inputLSB</key>
         <description>FX1-2 (LSB), Knob: left FX1</description>
         <status>0xB4</status>
         <midino>0x24</midino>
@@ -1318,7 +1318,7 @@
       </control>
       <control>
         <group>[EffectRack1_EffectUnit1]</group>
-        <key>PioneerDDJSB3.effectUnit[1].effect[3].knob.inputMSB</key>
+        <key>PioneerDDJSB3.effectUnit[1].knob.inputMSB</key>
         <description>FX1-3 (MSB), Knob: left FX1</description>
         <status>0xB4</status>
         <midino>0x06</midino>
@@ -1328,7 +1328,7 @@
       </control>
       <control>
         <group>[EffectRack1_EffectUnit1]</group>
-        <key>PioneerDDJSB3.effectUnit[1].effect[3].knob.inputLSB</key>
+        <key>PioneerDDJSB3.effectUnit[1].knob.inputLSB</key>
         <description>FX1-3 (LSB), Knob: left FX1</description>
         <status>0xB4</status>
         <midino>0x26</midino>
@@ -1418,7 +1418,7 @@
       </control>
       <control>
         <group>[EffectRack1_EffectUnit2]</group>
-        <key>PioneerDDJSB3.effectUnit[2].effect[1].knob.inputMSB</key>
+        <key>PioneerDDJSB3.effectUnit[2].knob.inputMSB</key>
         <description>FX2-1 (MSB), Knob: right FX2</description>
         <status>0xB5</status>
         <midino>0x02</midino>
@@ -1428,7 +1428,7 @@
       </control>
       <control>
         <group>[EffectRack1_EffectUnit2]</group>
-        <key>PioneerDDJSB3.effectUnit[2].effect[1].knob.inputLSB</key>
+        <key>PioneerDDJSB3.effectUnit[2].knob.inputLSB</key>
         <description>FX2-1 (LSB), Knob: right FX2</description>
         <status>0xB5</status>
         <midino>0x22</midino>
@@ -1438,7 +1438,7 @@
       </control>
       <control>
         <group>[EffectRack1_EffectUnit2]</group>
-        <key>PioneerDDJSB3.effectUnit[2].effect[2].knob.inputMSB</key>
+        <key>PioneerDDJSB3.effectUnit[2].knob.inputMSB</key>
         <description>FX2-2 (MSB), Knob: right FX2</description>
         <status>0xB5</status>
         <midino>0x04</midino>
@@ -1448,7 +1448,7 @@
       </control>
       <control>
         <group>[EffectRack1_EffectUnit2]</group>
-        <key>PioneerDDJSB3.effectUnit[2].effect[2].knob.inputLSB</key>
+        <key>PioneerDDJSB3.effectUnit[2].knob.inputLSB</key>
         <description>FX2-2 (LSB), Knob: right FX2</description>
         <status>0xB5</status>
         <midino>0x24</midino>
@@ -1458,7 +1458,7 @@
       </control>
       <control>
         <group>[EffectRack1_EffectUnit2]</group>
-        <key>PioneerDDJSB3.effectUnit[2].effect[3].knob.inputMSB</key>
+        <key>PioneerDDJSB3.effectUnit[2].knob.inputMSB</key>
         <description>FX2-3 (MSB), Knob: right FX2</description>
         <status>0xB5</status>
         <midino>0x06</midino>
@@ -1468,7 +1468,7 @@
       </control>
       <control>
         <group>[EffectRack1_EffectUnit2]</group>
-        <key>PioneerDDJSB3.effectUnit[2].effect[3].knob.inputLSB</key>
+        <key>PioneerDDJSB3.effectUnit[2].knob.inputLSB</key>
         <description>FX2-3 (LSB), Knob: right FX2</description>
         <status>0xB5</status>
         <midino>0x26</midino>
@@ -4497,7 +4497,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 1 Deck 1, Button: PAD1 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4507,7 +4507,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 1 Deck 2, Button: PAD1 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4517,7 +4517,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 1 Deck 3, Button: PAD1 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -4527,7 +4527,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 1 Deck 4, Button: PAD1 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -4537,7 +4537,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 1 Deck 1, Button: SHIFT &amp; PAD1 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4547,7 +4547,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 1 Deck 2, Button: SHIFT &amp; PAD1 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4557,7 +4557,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 1 Deck 3, Button: SHIFT &amp; PAD1 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -4567,7 +4567,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 1 Deck 4, Button: SHIFT &amp; PAD1 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -4577,7 +4577,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 2 Deck 1, Button: PAD2 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4587,7 +4587,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 2 Deck 2, Button: PAD2 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4597,7 +4597,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 2 Deck 3, Button: PAD2 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -4607,7 +4607,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 2 Deck 4, Button: PAD2 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -4617,7 +4617,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 2 Deck 1, Button: SHIFT &amp; PAD2 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4627,7 +4627,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 2 Deck 2, Button: SHIFT &amp; PAD2 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4637,7 +4637,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 2 Deck 3, Button: SHIFT &amp; PAD2 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -4647,7 +4647,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 2 Deck 4, Button: SHIFT &amp; PAD2 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -4657,7 +4657,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 3 Deck 1, Button: PAD3 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4667,7 +4667,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 3 Deck 2, Button: PAD3 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4677,7 +4677,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 3 Deck 3, Button: PAD3 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -4687,7 +4687,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 3 Deck 4, Button: PAD3 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -4697,7 +4697,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 3 Deck 1, Button: SHIFT &amp; PAD3 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4707,7 +4707,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 3 Deck 2, Button: SHIFT &amp; PAD3 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4717,7 +4717,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 3 Deck 3, Button: SHIFT &amp; PAD3 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -4727,7 +4727,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 3 Deck 4, Button: SHIFT &amp; PAD3 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -4737,7 +4737,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 4 Deck 1, Button: PAD4 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4747,7 +4747,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 4 Deck 2, Button: PAD4 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4757,7 +4757,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 4 Deck 3, Button: PAD4 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -4767,7 +4767,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 4 Deck 4, Button: PAD4 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -4777,7 +4777,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 4 Deck 1, Button: SHIFT &amp; PAD4 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4787,7 +4787,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 4 Deck 2, Button: SHIFT &amp; PAD4 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4797,7 +4797,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 4 Deck 3, Button: SHIFT &amp; PAD4 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -4807,7 +4807,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 4 Deck 4, Button: SHIFT &amp; PAD4 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -4817,7 +4817,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 5 Deck 1, Button: PAD5 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4827,7 +4827,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 5 Deck 2, Button: PAD5 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4837,7 +4837,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 5 Deck 3, Button: PAD5 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -4847,7 +4847,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 5 Deck 4, Button: PAD5 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -4857,7 +4857,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 5 Deck 1, Button: SHIFT &amp; PAD5 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4867,7 +4867,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 5 Deck 2, Button: SHIFT &amp; PAD5 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4877,7 +4877,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 5 Deck 3, Button: SHIFT &amp; PAD5 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -4887,7 +4887,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 5 Deck 4, Button: SHIFT &amp; PAD5 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -4897,7 +4897,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 6 Deck 1, Button: PAD6 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4907,7 +4907,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 6 Deck 2, Button: PAD6 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4917,7 +4917,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 6 Deck 3, Button: PAD6 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -4927,7 +4927,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 6 Deck 4, Button: PAD6 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -4937,7 +4937,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 6 Deck 1, Button: SHIFT &amp; PAD6 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4947,7 +4947,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 6 Deck 2, Button: SHIFT &amp; PAD6 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4957,7 +4957,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 6 Deck 3, Button: SHIFT &amp; PAD6 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -4967,7 +4967,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 6 Deck 4, Button: SHIFT &amp; PAD6 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -4977,7 +4977,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 7 Deck 1, Button: PAD7 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -4987,7 +4987,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 7 Deck 2, Button: PAD7 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -4997,7 +4997,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 7 Deck 3, Button: PAD7 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -5007,7 +5007,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 7 Deck 4, Button: PAD7 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -5017,7 +5017,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 7 Deck 1, Button: SHIFT &amp; PAD7 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -5027,7 +5027,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 7 Deck 2, Button: SHIFT &amp; PAD7 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -5037,7 +5037,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 7 Deck 3, Button: SHIFT &amp; PAD7 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -5047,7 +5047,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 7 Deck 4, Button: SHIFT &amp; PAD7 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -5057,7 +5057,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 8 Deck 1, Button: PAD8 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -5067,7 +5067,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 8 Deck 2, Button: PAD8 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -5077,7 +5077,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 8 Deck 3, Button: PAD8 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -5087,7 +5087,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.samplerButtons</key>
         <description>Sampler 8 Deck 4, Button: PAD8 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -5097,7 +5097,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 8 Deck 1, Button: SHIFT &amp; PAD8 (in Sampler-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -5107,7 +5107,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 8 Deck 2, Button: SHIFT &amp; PAD8 (in Sampler-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -5117,7 +5117,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 8 Deck 3, Button: SHIFT &amp; PAD8 (in Sampler-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -5127,7 +5127,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.shiftSamplerButtons</key>
         <description>Shift Sampler 8 Deck 4, Button: SHIFT &amp; PAD8 (in Sampler-Mode, Deck 4 active)</description>
         <status>0x9A</status>
