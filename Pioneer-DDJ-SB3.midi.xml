@@ -1018,202 +1018,202 @@
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>reloop_toggle</key>
+        <key>PioneerDDJSB3.deck[1].reLoopButton</key>
         <description>ReLoop - Channel 1</description>
         <status>0x90</status>
         <midino>0x50</midino>
         <options>
-          <normal/>
+          <script-binding />
         </options>
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>reloop_toggle</key>
+        <key>PioneerDDJSB3.deck[2].reLoopButton</key>
         <description>ReLoop - Channel 2</description>
         <status>0x91</status>
         <midino>0x50</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>reloop_toggle</key>
+        <key>PioneerDDJSB3.deck[3].reLoopButton</key>
         <description>ReLoop - Channel 3</description>
         <status>0x92</status>
         <midino>0x50</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>reloop_toggle</key>
+        <key>PioneerDDJSB3.deck[4].reLoopButton</key>
         <description>ReLoop - Channel 4</description>
         <status>0x93</status>
         <midino>0x50</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>loop_halve</key>
+        <key>PioneerDDJSB3.deck[1].halveLoopButton</key>
         <description>HalveLoop - Channel 1</description>
         <status>0x90</status>
         <midino>0x12</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>loop_halve</key>
+        <key>PioneerDDJSB3.deck[2].halveLoopButton</key>
         <description>HalveLoop - Channel 2</description>
         <status>0x91</status>
         <midino>0x12</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>loop_halve</key>
+        <key>PioneerDDJSB3.deck[3].halveLoopButton</key>
         <description>HalveLoop - Channel 3</description>
         <status>0x92</status>
         <midino>0x12</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>loop_halve</key>
+        <key>PioneerDDJSB3.deck[4].halveLoopButton</key>
         <description>HalveLoop - Channel 4</description>
         <status>0x93</status>
         <midino>0x12</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>loop_in</key>
+        <key>PioneerDDJSB3.deck[1].inLoopButton</key>
         <description>InLoop - Channel 1</description>
         <status>0x90</status>
         <midino>0x61</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>loop_in</key>
+        <key>PioneerDDJSB3.deck[2].inLoopButton</key>
         <description>InLoop - Channel 2</description>
         <status>0x91</status>
         <midino>0x61</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>loop_in</key>
+        <key>PioneerDDJSB3.deck[3].inLoopButton</key>
         <description>InLoop - Channel 3</description>
         <status>0x92</status>
         <midino>0x61</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>loop_in</key>
+        <key>PioneerDDJSB3.deck[4].inLoopButton</key>
         <description>InLoop - Channel 4</description>
         <status>0x93</status>
         <midino>0x61</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>loop_double</key>
+        <key>PioneerDDJSB3.deck[1].doubleLoopButton</key>
         <description>DoubleLoop - Channel 1</description>
         <status>0x90</status>
         <midino>0x13</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>loop_double</key>
+        <key>PioneerDDJSB3.deck[2].doubleLoopButton</key>
         <description>DoubleLoop - Channel 2</description>
         <status>0x91</status>
         <midino>0x13</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>loop_double</key>
+        <key>PioneerDDJSB3.deck[3].doubleLoopButton</key>
         <description>DoubleLoop - Channel 3</description>
         <status>0x92</status>
         <midino>0x13</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>loop_double</key>
+        <key>PioneerDDJSB3.deck[4].doubleLoopButton</key>
         <description>DoubleLoop - Channel 4</description>
         <status>0x93</status>
         <midino>0x13</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>loop_out</key>
+        <key>PioneerDDJSB3.deck[1].outLoopButton</key>
         <description>OutLoop - Channel 1</description>
         <status>0x90</status>
         <midino>0x62</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>loop_out</key>
+        <key>PioneerDDJSB3.deck[2].outLoopButton</key>
         <description>OutLoop - Channel 2</description>
         <status>0x91</status>
         <midino>0x62</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>loop_out</key>
+        <key>PioneerDDJSB3.deck[3].outLoopButton</key>
         <description>OutLoop - Channel 3</description>
         <status>0x92</status>
         <midino>0x62</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>loop_out</key>
+        <key>PioneerDDJSB3.deck[4].outLoopButton</key>
         <description>OutLoop - Channel 4</description>
         <status>0x93</status>
         <midino>0x62</midino>
         <options>
-          <normal/>
+          <script-binding/>
         </options>
       </control>
       <control>
@@ -5138,7 +5138,7 @@
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward4</key>
         <description>Beat-Jump 1 Deck 1, Button: PAD1 (in Beat-Jump-Mode, Deck 1 active)</description>
         <status>0x97</status>
         <midino>0x40</midino>
@@ -5148,7 +5148,7 @@
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward4</key>
         <description>Beat-Jump 1 Deck 2, Button: PAD1 (in Beat-Jump-Mode, Deck 2 active)</description>
         <status>0x98</status>
         <midino>0x40</midino>
@@ -5158,7 +5158,7 @@
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward4</key>
         <description>Beat-Jump 1 Deck 3, Button: PAD1 (in Beat-Jump-Mode, Deck 3 active)</description>
         <status>0x99</status>
         <midino>0x40</midino>
@@ -5168,7 +5168,7 @@
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward4</key>
         <description>Beat-Jump 1 Deck 4, Button: PAD1 (in Beat-Jump-Mode, Deck 4 active)</description>
         <status>0x9A</status>
         <midino>0x40</midino>
@@ -5218,7 +5218,7 @@
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward1</key>
         <description>Beat-Jump 2 Deck 1, Button: PAD2 (in Beat-Jump-Mode, Deck 1 active)</description>
         <status>0x97</status>
         <midino>0x41</midino>
@@ -5228,7 +5228,7 @@
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward1</key>
         <description>Beat-Jump 2 Deck 2, Button: PAD2 (in Beat-Jump-Mode, Deck 2 active)</description>
         <status>0x98</status>
         <midino>0x41</midino>
@@ -5238,7 +5238,7 @@
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward1</key>
         <description>Beat-Jump 2 Deck 3, Button: PAD2 (in Beat-Jump-Mode, Deck 3 active)</description>
         <status>0x99</status>
         <midino>0x41</midino>
@@ -5248,7 +5248,7 @@
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward1</key>
         <description>Beat-Jump 2 Deck 4, Button: PAD2 (in Beat-Jump-Mode, Deck 4 active)</description>
         <status>0x9A</status>
         <midino>0x41</midino>
@@ -5298,7 +5298,7 @@
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward1</key>
         <description>Beat-Jump 3 Deck 1, Button: PAD3 (in Beat-Jump-Mode, Deck 1 active)</description>
         <status>0x97</status>
         <midino>0x42</midino>
@@ -5308,7 +5308,7 @@
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward1</key>
         <description>Beat-Jump 3 Deck 2, Button: PAD3 (in Beat-Jump-Mode, Deck 2 active)</description>
         <status>0x98</status>
         <midino>0x42</midino>
@@ -5318,7 +5318,7 @@
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward1</key>
         <description>Beat-Jump 3 Deck 3, Button: PAD3 (in Beat-Jump-Mode, Deck 3 active)</description>
         <status>0x99</status>
         <midino>0x42</midino>
@@ -5328,7 +5328,7 @@
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward1</key>
         <description>Beat-Jump 3 Deck 4, Button: PAD3 (in Beat-Jump-Mode, Deck 4 active)</description>
         <status>0x9A</status>
         <midino>0x42</midino>
@@ -5378,7 +5378,7 @@
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward4</key>
         <description>Beat-Jump 4 Deck 1, Button: PAD4 (in Beat-Jump-Mode, Deck 1 active)</description>
         <status>0x97</status>
         <midino>0x43</midino>
@@ -5388,7 +5388,7 @@
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward4</key>
         <description>Beat-Jump 4 Deck 2, Button: PAD4 (in Beat-Jump-Mode, Deck 2 active)</description>
         <status>0x98</status>
         <midino>0x43</midino>
@@ -5398,7 +5398,7 @@
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward4</key>
         <description>Beat-Jump 4 Deck 3, Button: PAD4 (in Beat-Jump-Mode, Deck 3 active)</description>
         <status>0x99</status>
         <midino>0x43</midino>
@@ -5408,7 +5408,7 @@
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward4</key>
         <description>Beat-Jump 4 Deck 4, Button: PAD4 (in Beat-Jump-Mode, Deck 4 active)</description>
         <status>0x9A</status>
         <midino>0x43</midino>
@@ -5458,7 +5458,7 @@
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward8</key>
         <description>Beat-Jump 5 Deck 1, Button: PAD5 (in Beat-Jump-Mode, Deck 1 active)</description>
         <status>0x97</status>
         <midino>0x44</midino>
@@ -5468,7 +5468,7 @@
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward8</key>
         <description>Beat-Jump 5 Deck 2, Button: PAD5 (in Beat-Jump-Mode, Deck 2 active)</description>
         <status>0x98</status>
         <midino>0x44</midino>
@@ -5478,7 +5478,7 @@
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward8</key>
         <description>Beat-Jump 5 Deck 3, Button: PAD5 (in Beat-Jump-Mode, Deck 3 active)</description>
         <status>0x99</status>
         <midino>0x44</midino>
@@ -5488,7 +5488,7 @@
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward8</key>
         <description>Beat-Jump 5 Deck 4, Button: PAD5 (in Beat-Jump-Mode, Deck 4 active)</description>
         <status>0x9A</status>
         <midino>0x44</midino>
@@ -5538,7 +5538,7 @@
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward2</key>
         <description>Beat-Jump 6 Deck 1, Button: PAD6 (in Beat-Jump-Mode, Deck 1 active)</description>
         <status>0x97</status>
         <midino>0x45</midino>
@@ -5548,7 +5548,7 @@
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward2</key>
         <description>Beat-Jump 6 Deck 2, Button: PAD6 (in Beat-Jump-Mode, Deck 2 active)</description>
         <status>0x98</status>
         <midino>0x45</midino>
@@ -5558,7 +5558,7 @@
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward2</key>
         <description>Beat-Jump 6 Deck 3, Button: PAD6 (in Beat-Jump-Mode, Deck 3 active)</description>
         <status>0x99</status>
         <midino>0x45</midino>
@@ -5568,7 +5568,7 @@
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonBackward2</key>
         <description>Beat-Jump 6 Deck 4, Button: PAD6 (in Beat-Jump-Mode, Deck 4 active)</description>
         <status>0x9A</status>
         <midino>0x45</midino>
@@ -5618,7 +5618,7 @@
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward2</key>
         <description>Beat-Jump 7 Deck 1, Button: PAD7 (in Beat-Jump-Mode, Deck 1 active)</description>
         <status>0x97</status>
         <midino>0x46</midino>
@@ -5628,7 +5628,7 @@
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward2</key>
         <description>Beat-Jump 7 Deck 2, Button: PAD7 (in Beat-Jump-Mode, Deck 2 active)</description>
         <status>0x98</status>
         <midino>0x46</midino>
@@ -5638,7 +5638,7 @@
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward2</key>
         <description>Beat-Jump 7 Deck 3, Button: PAD7 (in Beat-Jump-Mode, Deck 3 active)</description>
         <status>0x99</status>
         <midino>0x46</midino>
@@ -5648,7 +5648,7 @@
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward2</key>
         <description>Beat-Jump 7 Deck 4, Button: PAD7 (in Beat-Jump-Mode, Deck 4 active)</description>
         <status>0x9A</status>
         <midino>0x46</midino>
@@ -5698,7 +5698,7 @@
       </control>
       <control>
         <group>[Channel1]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward8</key>
         <description>Beat-Jump 8 Deck 1, Button: PAD8 (in Beat-Jump-Mode, Deck 1 active)</description>
         <status>0x97</status>
         <midino>0x47</midino>
@@ -5708,7 +5708,7 @@
       </control>
       <control>
         <group>[Channel2]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward8</key>
         <description>Beat-Jump 8 Deck 2, Button: PAD8 (in Beat-Jump-Mode, Deck 2 active)</description>
         <status>0x98</status>
         <midino>0x47</midino>
@@ -5718,7 +5718,7 @@
       </control>
       <control>
         <group>[Channel3]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward8</key>
         <description>Beat-Jump 8 Deck 3, Button: PAD8 (in Beat-Jump-Mode, Deck 3 active)</description>
         <status>0x99</status>
         <midino>0x47</midino>
@@ -5728,7 +5728,7 @@
       </control>
       <control>
         <group>[Channel4]</group>
-        <key>PioneerDDJSB3.beatJumpButtons</key>
+        <key>PioneerDDJSB3.beatJumpButtonForward8</key>
         <description>Beat-Jump 8 Deck 4, Button: PAD8 (in Beat-Jump-Mode, Deck 4 active)</description>
         <status>0x9A</status>
         <midino>0x47</midino>
@@ -7698,42 +7698,6 @@
       </control>
     </controls>
     <outputs>
-      <output>
-        <group>[Channel1]</group>
-        <key>loop_enabled</key>
-        <description>Indication if loop is enabled - Deck 1</description>
-        <status>0x90</status>
-        <midino>0x14</midino>
-        <on>0x7f</on>
-        <minimum>0.1</minimum>
-      </output>
-      <output>
-        <group>[Channel2]</group>
-        <key>loop_enabled</key>
-        <description>Indication if loop is enabled - Deck 2</description>
-        <status>0x91</status>
-        <midino>0x14</midino>
-        <on>0x7f</on>
-        <minimum>0.1</minimum>
-      </output>
-      <output>
-        <group>[Channel3]</group>
-        <key>loop_enabled</key>
-        <description>Indication if loop is enabled - Deck 3</description>
-        <status>0x92</status>
-        <midino>0x14</midino>
-        <on>0x7f</on>
-        <minimum>0.1</minimum>
-      </output>
-      <output>
-        <group>[Channel4]</group>
-        <key>loop_enabled</key>
-        <description>Indication if loop is enabled - Deck 4</description>
-        <status>0x93</status>
-        <midino>0x14</midino>
-        <on>0x7f</on>
-        <minimum>0.1</minimum>
-      </output>
     </outputs>
   </controller>
 </MixxxControllerPreset>
