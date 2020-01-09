@@ -7057,7 +7057,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 1 Deck 1, Button: PAD1 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7067,7 +7067,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 1 Deck 2, Button: PAD1 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7077,7 +7077,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 1 Deck 3, Button: PAD1 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7087,7 +7087,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 1 Deck 4, Button: PAD1 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7097,7 +7097,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 1 Deck 1, Button: SHIFT &amp; PAD1 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7107,7 +7107,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 1 Deck 2, Button: SHIFT &amp; PAD1 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7117,7 +7117,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 1 Deck 3, Button: SHIFT &amp; PAD1 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7127,7 +7127,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler1]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 1 Deck 4, Button: SHIFT &amp; PAD1 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7137,7 +7137,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 2 Deck 1, Button: PAD2 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7147,7 +7147,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 2 Deck 2, Button: PAD2 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7157,7 +7157,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 2 Deck 3, Button: PAD2 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7167,7 +7167,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 2 Deck 4, Button: PAD2 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7177,7 +7177,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 2 Deck 1, Button: SHIFT &amp; PAD2 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7187,7 +7187,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 2 Deck 2, Button: SHIFT &amp; PAD2 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7197,7 +7197,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 2 Deck 3, Button: SHIFT &amp; PAD2 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7207,7 +7207,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler2]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 2 Deck 4, Button: SHIFT &amp; PAD2 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7217,7 +7217,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 3 Deck 1, Button: PAD3 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7227,7 +7227,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 3 Deck 2, Button: PAD3 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7237,7 +7237,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 3 Deck 3, Button: PAD3 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7247,7 +7247,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 3 Deck 4, Button: PAD3 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7257,7 +7257,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 3 Deck 1, Button: SHIFT &amp; PAD3 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7267,7 +7267,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 3 Deck 2, Button: SHIFT &amp; PAD3 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7277,7 +7277,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 3 Deck 3, Button: SHIFT &amp; PAD3 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7287,7 +7287,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler3]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 3 Deck 4, Button: SHIFT &amp; PAD3 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7297,7 +7297,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 4 Deck 1, Button: PAD4 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7307,7 +7307,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 4 Deck 2, Button: PAD4 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7317,7 +7317,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 4 Deck 3, Button: PAD4 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7327,7 +7327,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 4 Deck 4, Button: PAD4 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7337,7 +7337,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 4 Deck 1, Button: SHIFT &amp; PAD4 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7347,7 +7347,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 4 Deck 2, Button: SHIFT &amp; PAD4 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7357,7 +7357,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 4 Deck 3, Button: SHIFT &amp; PAD4 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7367,7 +7367,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler4]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 4 Deck 4, Button: SHIFT &amp; PAD4 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7377,7 +7377,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 5 Deck 1, Button: PAD5 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7387,7 +7387,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 5 Deck 2, Button: PAD5 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7397,7 +7397,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 5 Deck 3, Button: PAD5 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7407,7 +7407,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 5 Deck 4, Button: PAD5 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7417,7 +7417,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 5 Deck 1, Button: SHIFT &amp; PAD5 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7427,7 +7427,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 5 Deck 2, Button: SHIFT &amp; PAD5 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7437,7 +7437,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 5 Deck 3, Button: SHIFT &amp; PAD5 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7447,7 +7447,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler5]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 5 Deck 4, Button: SHIFT &amp; PAD5 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7457,7 +7457,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 6 Deck 1, Button: PAD6 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7467,7 +7467,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 6 Deck 2, Button: PAD6 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7477,7 +7477,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 6 Deck 3, Button: PAD6 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7487,7 +7487,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 6 Deck 4, Button: PAD6 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7497,7 +7497,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 6 Deck 1, Button: SHIFT &amp; PAD6 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7507,7 +7507,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 6 Deck 2, Button: SHIFT &amp; PAD6 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7517,7 +7517,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 6 Deck 3, Button: SHIFT &amp; PAD6 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7527,7 +7527,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler6]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 6 Deck 4, Button: SHIFT &amp; PAD6 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7537,7 +7537,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 7 Deck 1, Button: PAD7 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7547,7 +7547,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 7 Deck 2, Button: PAD7 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7557,7 +7557,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 7 Deck 3, Button: PAD7 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7567,7 +7567,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 7 Deck 4, Button: PAD7 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7577,7 +7577,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 7 Deck 1, Button: SHIFT &amp; PAD7 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7587,7 +7587,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 7 Deck 2, Button: SHIFT &amp; PAD7 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7597,7 +7597,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 7 Deck 3, Button: SHIFT &amp; PAD7 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7607,7 +7607,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler7]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 7 Deck 4, Button: SHIFT &amp; PAD7 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7617,7 +7617,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 8 Deck 1, Button: PAD8 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7627,7 +7627,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 8 Deck 2, Button: PAD8 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7637,7 +7637,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 8 Deck 3, Button: PAD8 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7647,7 +7647,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.transButtons</key>
         <description>Trans 8 Deck 4, Button: PAD8 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>
@@ -7657,7 +7657,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel1]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 8 Deck 1, Button: SHIFT &amp; PAD8 (in Trans-Mode, Deck 1 active)</description>
         <status>0x97</status>
@@ -7667,7 +7667,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel2]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 8 Deck 2, Button: SHIFT &amp; PAD8 (in Trans-Mode, Deck 2 active)</description>
         <status>0x98</status>
@@ -7677,7 +7677,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel3]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 8 Deck 3, Button: SHIFT &amp; PAD8 (in Trans-Mode, Deck 3 active)</description>
         <status>0x99</status>
@@ -7687,7 +7687,7 @@
         </options>
       </control>
       <control>
-        <group>[Channel4]</group>
+        <group>[Sampler8]</group>
         <key>PioneerDDJSB3.shiftTransButtons</key>
         <description>Shift Trans 8 Deck 4, Button: SHIFT &amp; PAD8 (in Trans-Mode, Deck 4 active)</description>
         <status>0x9A</status>

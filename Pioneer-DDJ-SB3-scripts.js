@@ -537,9 +537,9 @@ PioneerDDJSB3.autodjToggle = function (channel, control, value, status, group) {
 //                      CONTROL BINDING                      //
 ///////////////////////////////////////////////////////////////
 
-PioneerDDJSB3.bindSamplerControlConnections = function (samplerGroup, isUnbinding) {
+//PioneerDDJSB3.bindSamplerControlConnections = function (samplerGroup, isUnbinding) {
 //  script.bindConnections(samplerGroup, 'play', 'PioneerDDJSB3.samplerLeds', isUnbinding) 
-};
+//};
 
 
 PioneerDDJSB3.bindDeckControlConnections = function (channelGroup, isUnbinding) {
@@ -555,9 +555,6 @@ PioneerDDJSB3.bindDeckControlConnections = function (channelGroup, isUnbinding) 
             'filterHighKill': 'PioneerDDJSB3.highKillLed',
             'mute': 'PioneerDDJSB3.muteLed',
             'loop_enabled': 'PioneerDDJSB3.loopExitLed',
-        },
-        samplerControlsToFunctions = {
-            'play': 'PioneerDDJSB3.samplerLeds',
         };
 
     if (PioneerDDJSB3.invertVinylSlipButton) {
@@ -568,21 +565,20 @@ PioneerDDJSB3.bindDeckControlConnections = function (channelGroup, isUnbinding) 
         controlsToFunctions['hotcue_' + i + '_enabled'] = 'PioneerDDJSB3.hotCueLeds';
     }
 
-    for (i = 1; i <= 8; i++) {
-       script.bindConnections('[Sampler'+i+']', samplerControlsToFunctions, isUnbinding);
-    }
-   
-
     script.bindConnections(channelGroup, controlsToFunctions, isUnbinding);
 };
 
 PioneerDDJSB3.bindNonDeckControlConnections = function (isUnbinding) {
-    var samplerIndex;
+    var samplerIndex,
+        samplerControlsToFunctions = {
+            'play': 'PioneerDDJSB3.samplerLeds',
+            'track_loaded': 'PioneerDDJSB3.transLeds',
+        };
 
     printObject("MOA2-1")
     for (samplerIndex = 1; samplerIndex <= 8; samplerIndex++) {
     printObject("MOA2-1-" + samplerIndex)
-        PioneerDDJSB3.bindSamplerControlConnections('[Sampler' + samplerIndex + ']', isUnbinding);
+        script.bindConnections('[Sampler'+samplerIndex+']', samplerControlsToFunctions, isUnbinding);
     }
 
     printObject("MOA2-2")
@@ -598,18 +594,18 @@ PioneerDDJSB3.bindNonDeckControlConnections = function (isUnbinding) {
     }
 };
 
-PioneerDDJSB3.bindAllControlConnections = function (isUnbinding) {
-    var samplerIndex,
-        channelIndex;
-
-    for (samplerIndex = 1; samplerIndex <= 8; samplerIndex++) {
-        PioneerDDJSB3.bindSamplerControlConnections('[Sampler' + samplerIndex + ']', isUnbinding);
-    }
-
-    for (channelIndex = 1; channelIndex <= 2; channelIndex++) {
-        PioneerDDJSB3.bindDeckControlConnections('[Channel' + channelIndex + ']', isUnbinding);
-    }
-};
+//PioneerDDJSB3.bindAllControlConnections = function (isUnbinding) {
+//    var samplerIndex,
+//        channelIndex;
+//
+////    for (samplerIndex = 1; samplerIndex <= 8; samplerIndex++) {
+////        PioneerDDJSB3.bindSamplerControlConnections('[Sampler' + samplerIndex + ']', isUnbinding);
+////    }
+//
+//    for (channelIndex = 1; channelIndex <= 2; channelIndex++) {
+//        PioneerDDJSB3.bindDeckControlConnections('[Channel' + channelIndex + ']', isUnbinding);
+//    }
+//};
 
 // MOA DONE
 ///////////////////////////////////////////////////////////////
@@ -735,6 +731,20 @@ PioneerDDJSB3.shiftSamplerButtons = function (channel, control, value, status, g
 //        } else {
 //            engine.setValue(group, 'play', 1);
 //        }
+    }
+};
+
+PioneerDDJSB3.transButtons = function (channel, control, value, status, group) {
+    printObject('MOA transButtons - group: ' + group)
+    if (value) {
+        engine.setValue(group, 'LoadSelectedTrack', 1);
+    }
+};
+
+PioneerDDJSB3.shiftTransButtons = function (channel, control, value, status, group) {
+    printObject('MOA transButtons - group: ' + group)
+    if (value) {
+        engine.setValue(group, 'eject', 1);
     }
 };
 
@@ -997,6 +1007,16 @@ PioneerDDJSB3.samplerLeds = function (value, group, control) {
 
     for (channel = 0; channel < 4; channel++) {
       PioneerDDJSB3.padLedControl(channel, PioneerDDJSB3.ledGroups.sampler, samplerOffset, false, value);
+    }
+};
+
+PioneerDDJSB3.transLeds = function (value, group, control) {
+    printObject('MOA transLeds - group: ' + group+ control + value)
+    var samplerOffset = PioneerDDJSB3.samplerGroups[group],
+        channel;
+
+    for (channel = 0; channel < 4; channel++) {
+      PioneerDDJSB3.padLedControl(channel, PioneerDDJSB3.ledGroups.trans, samplerOffset, false, value);
     }
 };
 
