@@ -590,6 +590,7 @@ PioneerDDJSB3.bindDeckControlConnections = function (channelGroup, isUnbinding) 
             'filterHighKill': 'PioneerDDJSB3.highKillLed',
             'mute': 'PioneerDDJSB3.muteLed',
             'loop_enabled': 'PioneerDDJSB3.loopLed',
+            'beat_active': 'PioneerDDJSB3.bpmLed',
         };
 
     if (PioneerDDJSB3.invertVinylSlipButton) {
@@ -855,23 +856,23 @@ PioneerDDJSB3.padScratchButtons = function (channel, control, value, status, gro
 };
 
 PioneerDDJSB3.shiftPadScratchButtons = function (channel, control, value, status, group) {
-    printObject('MOA - TBD padScratchButtons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
+    printObject('MOA - TBD shiftPadScratchButtons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
 };
 
 PioneerDDJSB3.rollButtons = function (channel, control, value, status, group) {
-    printObject('MOA - TBD padScratchButtons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
+    printObject('MOA - TBD roll Buttons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
 };
 
 PioneerDDJSB3.shiftRollButtons = function (channel, control, value, status, group) {
-    printObject('MOA - TBD padScratchButtons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
+    printObject('MOA - TBD shiftRollButtons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
 };
 
 PioneerDDJSB3.slicerButtons = function (channel, control, value, status, group) {
-    printObject('MOA - TBD padScratchButtons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
+    printObject('MOA - TBD slicerButtons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
 };
 
 PioneerDDJSB3.shiftSlicerButtons = function (channel, control, value, status, group) {
-    printObject('MOA - TBD padScratchButtons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
+    printObject('MOA - TBD shiftSlicerButtons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
 };
 
 //PioneerDDJSB3.cueButton = function (channel, control, value, status, group) {
@@ -1079,6 +1080,12 @@ PioneerDDJSB3.slipLed = function (value, group, control) {
 PioneerDDJSB3.loopLed = function (value, group, control) {
     PioneerDDJSB3.nonPadLedControl(group, PioneerDDJSB3.nonPadLeds.loop, value);
 };
+
+PioneerDDJSB3.bpmLed = function (value, group, control) {
+    PioneerDDJSB3.padLedControl(group, PioneerDDJSB3.ledGroups.slicer, 0, false, value);
+};
+
+
 //
 //PioneerDDJSB3.loopHalveLed = function (value, group, control) {
 //    PioneerDDJSB3.padLedControl(group, PioneerDDJSB3.ledGroups.manualLoop, false, 3, false, value);
