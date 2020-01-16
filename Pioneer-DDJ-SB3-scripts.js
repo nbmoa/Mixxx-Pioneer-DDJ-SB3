@@ -1242,12 +1242,48 @@ PioneerDDJSB3.fxFadeButtons = function (channel, control, value, status, group) 
     // Loop out, sends halve loop commands but does not enable the loop
     if (control == 22) {
         if (value) {
-            engine.setValue(group, 'beatloop_4_activate', 1)
+            if (PioneerDDJSB3.fxFadeLoopActivePad7 == true) {
+              // TBD remember current loop size
+              PioneerDDJSB3.fxFadeLoopActivePad7 = false;
+              engine.setValue(group, 'beatloop_size', PioneerDDJSB3.fxFadeLoopBeatSizeMarker);
+              engine.setValue(group, 'reloop_exit', 1);
+              engine.setValue(group, 'reloop_exit', 0);
+            } else {
+              // TBD remember current loop size
+              PioneerDDJSB3.fxFadeLoopActivePad7 = true;
+              PioneerDDJSB3.fxFadeLoopBeatSizeMarker = engine.getValue(group, 'beatloop_size');
+              engine.setValue(group, 'beatloop_4_activate', 1);
+              engine.setValue(group, 'beatloop_4_activate', 0);
+            }
             // Need to disable it, because the pad button will also send the toggle loop signal
             //engine.setValue(group, 'reloop_exit', 1)
         } else {
+
             //engine.setValue(group, 'reloop_exit', 1)
         }
+    } else if (control == 18) {
+        if (value) {
+            if (PioneerDDJSB3.fxFadeLoopActive == true) {
+              // TBD remember current loop size
+              PioneerDDJSB3.fxFadeLoopActive = false;
+              engine.setValue(group, 'beatloop_size', PioneerDDJSB3.fxFadeLoopBeatSizeMarker);
+              engine.setValue(group, 'reloop_exit', 1);
+              engine.setValue(group, 'reloop_exit', 0);
+            } else {
+              // TBD remember current loop size
+              PioneerDDJSB3.fxFadeLoopActive = true;
+              PioneerDDJSB3.fxFadeLoopBeatSizeMarker = engine.getValue(group, 'beatloop_size');
+              engine.setValue(group, 'beatloop_1_activate', 1);
+              engine.setValue(group, 'beatloop_1_activate', 0);
+            }
+            // Need to disable it, because the pad button will also send the toggle loop signal
+            //engine.setValue(group, 'reloop_exit', 1)
+        } else {
+
+            //engine.setValue(group, 'reloop_exit', 1)
+        }
+    } else {
+        PioneerDDJSB3.fxFadeLoopActivePad3 = false
     }
 };
 

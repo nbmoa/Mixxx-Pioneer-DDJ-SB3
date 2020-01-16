@@ -22,3 +22,14 @@ Here we try and list what is working and what isn't
 | Cue          | Yes    | Yes    | Yes    | Yes    |
 | Key Lock     | Yes    | Yes    | Yes    | Yes    |
 | Sync         | Yes    | Yes    | Yes    | Yes    |
+
+
+## Reverse Engineered specs
+
+### FX-Fase
+
+#### Common for all buttons
+
+Disabling an active FX Fade sends the value of the Fader and the SuperEffect Knob, reseting them to their original values.
+
+
