@@ -16,14 +16,47 @@ These files are based on the DDJ-SB2 files that are part of the Mixxx distributi
 ## Feature Matrix
 Here we try and list what is working and what isn't
 
+### Global
+
+| Feature          | Working |
+|------------------|---------|
+| Track select     | Yes     |
+| EQ               | Yes     |
+| SuperEffect      | Yes     |
+| Central Fader    | Yes     |
+| Master Headphone | No      |
+
+
+### Deck Specific
+
 | Feature        | Deck 1 | Deck 2 | Deck 3 | Deck 4 |
 |----------------|--------|--------|--------|--------|
+| Fader          | Yes    | Yes    | Yes    | Yes    |
 | Play / Pause   | Yes    | Yes    | Yes    | Yes    |
 | Cue            | Yes    | Yes    | Yes    | Yes    |
 | Key Lock       | Yes    | Yes    | Yes    | Yes    |
 | Sync           | Yes    | Yes    | Yes    | Yes    |
+| Vinyl          | Yes    | Yes    | Yes    | Yes    |
 | FX1 / FX2      | Yes    | Yes    | Yes    | Yes    |
 | Perfomance Pad | Yes    | Yes    | Yes    | Yes    |
+
+### Central Section
+
+#### Track select and load
+
+- The track rotary moves the cursor in the track dialog
+- Pressing the track rotary button load and plays the track in preview
+- While previewing the track rotary let you jump in the previewed track back and forth
+- Pressing the load button loads the selected track in the current deck
+- While shift is pressed the select rotary let you move in the file dialog, and pressing it expands and hides
+
+### Effect unit 1 and effect unit 2 (FX1/FX2)
+
+- Button 1-3 selects the effect 1-3 of the effect unit
+- Effect knob controlls the gain of the selected effect
+- Shift + Button 1-3 enables the effect 1-3 of the effect unit
+- Shift + Gain/EQ1-3/SuperEffect button will controll the parameter of the selected effect
+- Effect Unit 1+2 can be enabled for a deck by
 
 ### Performance PAD
 
