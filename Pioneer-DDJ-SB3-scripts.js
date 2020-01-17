@@ -635,13 +635,6 @@ PioneerDDJSB3.shiftButton = function (channel, control, value, status, group) {
     }
 };
 
-//PioneerDDJSB3.playButton = function (channel, control, value, status, group) {
-//    printObject("playButton")
-//    if (value) {
-//        script.toggleControl(PioneerDDJSB3.deckSwitchTable[group], 'play');
-//    }
-//};
-
 PioneerDDJSB3.headphoneCueButton = function (channel, control, value, status, group) {
     if (value) {
         script.toggleControl(group, 'pfl');
@@ -656,22 +649,10 @@ PioneerDDJSB3.headphoneShiftCueButton = function (channel, control, value, statu
 
 PioneerDDJSB3.masterCueButton = function (channel, control, value, status, group) {
     if (value) {
+        // TBD
 //        script.toggleControl(group, 'pfl');
     }
 };
-
-//PioneerDDJSB3.cueButton = function (channel, control, value, status, group) {
-//    engine.setValue(PioneerDDJSB3.deckSwitchTable[group], 'cue_default', value);
-//};
-
-//PioneerDDJSB3.beatloopRollButtons = function (channel, control, value, status, group) {
-//    var index = (control <= 0x53 ? control - 0x50 : control - 0x54);
-//    engine.setValue(
-//        PioneerDDJSB3.deckSwitchTable[group],
-//        'beatlooproll_' + PioneerDDJSB3.looprollIntervals[index] + '_activate',
-//        value
-//    );
-//};
 
 PioneerDDJSB3.vinylButton = function (channel, control, value, status, group) {
     if (PioneerDDJSB3.invertVinylSlipButton) {
@@ -708,44 +689,6 @@ PioneerDDJSB3.deckSwitch = function (channel, control, value, status, group) {
     if (value) {
     }
 };
-
-//PioneerDDJSB3.loopInButton = function (channel, control, value, status, group) {
-//    engine.setValue(PioneerDDJSB3.deckSwitchTable[group], 'loop_in', value ? 1 : 0);
-//};
-//
-//PioneerDDJSB3.loopOutButton = function (channel, control, value, status, group) {
-//    engine.setValue(PioneerDDJSB3.deckSwitchTable[group], 'loop_out', value ? 1 : 0);
-//};
-//
-//PioneerDDJSB3.loopExitButton = function (channel, control, value, status, group) {
-//    if (value) {
-//        engine.setValue(PioneerDDJSB3.deckSwitchTable[group], 'reloop_exit', 1);
-//    }
-//};
-//
-//PioneerDDJSB3.loopHalveButton = function (channel, control, value, status, group) {
-//    if (value) {
-//        engine.setValue(PioneerDDJSB3.deckSwitchTable[group], 'loop_scale', 0.5);
-//    }
-//};
-//
-//PioneerDDJSB3.loopDoubleButton = function (channel, control, value, status, group) {
-//    if (value) {
-//        engine.setValue(PioneerDDJSB3.deckSwitchTable[group], 'loop_scale', 2.0);
-//    }
-//};
-//
-//PioneerDDJSB3.loopMoveBackButton = function (channel, control, value, status, group) {
-//    if (value) {
-//        engine.setValue(PioneerDDJSB3.deckSwitchTable[group], 'loop_move', -1);
-//    }
-//};
-//
-//PioneerDDJSB3.loopMoveForwardButton = function (channel, control, value, status, group) {
-//    if (value) {
-//        engine.setValue(PioneerDDJSB3.deckSwitchTable[group], 'loop_move', 1);
-//    }
-//};
 
 PioneerDDJSB3.loadButton = function (channel, control, value, status, group) {
     if (value) {
@@ -1013,7 +956,7 @@ PioneerDDJSB3.pitchBendFromJog = function (channel, movement) {
 };
 
 ///////////////////////////////////////////////////////////////
-//                        ROTARY SELECTOR                    //
+//                      File Selector Knob                   //
 ///////////////////////////////////////////////////////////////
 
 PioneerDDJSB3.trackPreviewActive = false;
@@ -1245,7 +1188,7 @@ PioneerDDJSB3.fxFadeButtons = function (channel, control, value, status, group) 
             if (PioneerDDJSB3.fxFadeLoopActivePad3 != true) {
                 PioneerDDJSB3.fxFadeLoopActivePad3 = true;
                 if (PioneerDDJSB3.fxFadeLoopActivePad7 == true) {
-                    PioneerDDJSB3.fxFadeLoopActivePad7 = false
+                    PioneerDDJSB3.fxFadeLoopActivePad7 = false;
                     engine.setValue(group, 'beatloop_size', 4);
                 } else {
                     PioneerDDJSB3.fxFadeLoopBeatSizeMarker = engine.getValue(group, 'beatloop_size');
@@ -1264,7 +1207,7 @@ PioneerDDJSB3.fxFadeButtons = function (channel, control, value, status, group) 
             if (PioneerDDJSB3.fxFadeLoopActivePad3 != true) {
                 PioneerDDJSB3.fxFadeLoopActivePad3 = true;
                 if (PioneerDDJSB3.fxFadeLoopActivePad7 == true) {
-                    PioneerDDJSB3.fxFadeLoopActivePad7 = false
+                    PioneerDDJSB3.fxFadeLoopActivePad7 = false;
                     engine.setValue(group, 'beatloop_size', 1);
                 } else {
                     PioneerDDJSB3.fxFadeLoopBeatSizeMarker = engine.getValue(group, 'beatloop_size')
