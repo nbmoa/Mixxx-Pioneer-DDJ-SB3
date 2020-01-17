@@ -1186,25 +1186,7 @@ PioneerDDJSB3.fxFadeLoopActivePad7 = false;
 PioneerDDJSB3.fxFadeButtons = function (channel, control, value, status, group) {
     printObject('MOA - TBD fxFadeButtons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
     // Loop out, sends halve loop commands but does not enable the loop
-    if (control == 22) {
-        if (value) {
-            if (PioneerDDJSB3.fxFadeLoopActivePad3 != true) {
-                PioneerDDJSB3.fxFadeLoopActivePad3 = true;
-                if (PioneerDDJSB3.fxFadeLoopActivePad7 == true) {
-                    PioneerDDJSB3.fxFadeLoopActivePad7 = false;
-                    engine.setValue(group, 'beatloop_size', 4);
-                    engine.setValue(group, 'reloop_toggle', 1);
-                } else {
-                    PioneerDDJSB3.fxFadeLoopBeatSizeMarker = engine.getValue(group, 'beatloop_size');
-                    engine.setValue(group, 'beatloop_4_activate', 1);
-                }
-            } else {
-                PioneerDDJSB3.fxFadeLoopActivePad3 = false;
-                engine.setValue(group, 'reloop_toggle', 1);
-                engine.setValue(group, 'beatloop_size', PioneerDDJSB3.fxFadeLoopBeatSizeMarker);
-            }
-        }
-    } else if (control == 18) {
+    if (control == 18) {
         if (value) {
             if (PioneerDDJSB3.fxFadeLoopActivePad3 != true) {
                 PioneerDDJSB3.fxFadeLoopActivePad3 = true;
@@ -1218,6 +1200,22 @@ PioneerDDJSB3.fxFadeButtons = function (channel, control, value, status, group) 
                 }
             } else {
                 PioneerDDJSB3.fxFadeLoopActivePad3 = false;
+                engine.setValue(group, 'reloop_toggle', 1);
+                engine.setValue(group, 'beatloop_size', PioneerDDJSB3.fxFadeLoopBeatSizeMarker);
+            }
+        }
+    } else if (control == 22) {
+        if (value) {
+            if (PioneerDDJSB3.fxFadeLoopActivePad7 != true) {
+                PioneerDDJSB3.fxFadeLoopActivePad7 = true;
+                if (PioneerDDJSB3.fxFadeLoopActivePad3 == true) {
+                    PioneerDDJSB3.fxFadeLoopActivePad3 = false;
+                } else {
+                    PioneerDDJSB3.fxFadeLoopBeatSizeMarker = engine.getValue(group, 'beatloop_size');
+                }
+                engine.setValue(group, 'beatloop_4_activate', 1);
+            } else {
+                PioneerDDJSB3.fxFadeLoopActivePad7 = false;
                 engine.setValue(group, 'reloop_toggle', 1);
                 engine.setValue(group, 'beatloop_size', PioneerDDJSB3.fxFadeLoopBeatSizeMarker);
             }
