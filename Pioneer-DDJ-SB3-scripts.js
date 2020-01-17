@@ -1180,6 +1180,9 @@ PioneerDDJSB3.shiftBeatJumpButtons = function (channel, control, value, status, 
     printObject('MOA - TBD shiftBeatJumpButtons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
 };
 
+PioneerDDJSB3.fxFadeLoopActivePad3 = false;
+PioneerDDJSB3.fxFadeLoopActivePad7 = false;
+
 PioneerDDJSB3.fxFadeButtons = function (channel, control, value, status, group) {
     printObject('MOA - TBD fxFadeButtons: channel: '+ channel + ', group: ' + group + ', control: ' + control)
     // Loop out, sends halve loop commands but does not enable the loop
@@ -1190,8 +1193,8 @@ PioneerDDJSB3.fxFadeButtons = function (channel, control, value, status, group) 
                 if (PioneerDDJSB3.fxFadeLoopActivePad7 == true) {
                     PioneerDDJSB3.fxFadeLoopActivePad7 = false;
                     engine.setValue(group, 'beatloop_size', 4);
-                    engine.setValue(group, 'reloop_exit', 1);
-                    engine.setValue(group, 'reloop_exit', 0);
+                    engine.setValue(group, 'reloop_toggle', 1);
+                    engine.setValue(group, 'reloop_toggle', 0);
                 } else {
                     PioneerDDJSB3.fxFadeLoopBeatSizeMarker = engine.getValue(group, 'beatloop_size');
                     engine.setValue(group, 'beatloop_4_activate', 1);
@@ -1211,8 +1214,8 @@ PioneerDDJSB3.fxFadeButtons = function (channel, control, value, status, group) 
                 if (PioneerDDJSB3.fxFadeLoopActivePad7 == true) {
                     PioneerDDJSB3.fxFadeLoopActivePad7 = false;
                     engine.setValue(group, 'beatloop_size', 1);
-                    engine.setValue(group, 'reloop_exit', 1);
-                    engine.setValue(group, 'reloop_exit', 0);
+                    engine.setValue(group, 'reloop_toggle', 1);
+                    engine.setValue(group, 'reloop_toggle', 0);
                 } else {
                     PioneerDDJSB3.fxFadeLoopBeatSizeMarker = engine.getValue(group, 'beatloop_size')
                     engine.setValue(group, 'beatloop_1_activate', 1);
