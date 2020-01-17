@@ -16,20 +16,53 @@ These files are based on the DDJ-SB2 files that are part of the Mixxx distributi
 ## Feature Matrix
 Here we try and list what is working and what isn't
 
-| Feature      | Deck 1 | Deck 2 | Deck 3 | Deck 4 |
-|--------------|--------|--------|--------|--------|
-| Play / Pause | Yes    | Yes    | Yes    | Yes    |
-| Cue          | Yes    | Yes    | Yes    | Yes    |
-| Key Lock     | Yes    | Yes    | Yes    | Yes    |
-| Sync         | Yes    | Yes    | Yes    | Yes    |
+| Feature        | Deck 1 | Deck 2 | Deck 3 | Deck 4 |
+|----------------|--------|--------|--------|--------|
+| Play / Pause   | Yes    | Yes    | Yes    | Yes    |
+| Cue            | Yes    | Yes    | Yes    | Yes    |
+| Key Lock       | Yes    | Yes    | Yes    | Yes    |
+| Sync           | Yes    | Yes    | Yes    | Yes    |
+| FX1 / FX2      | Yes    | Yes    | Yes    | Yes    |
+| Perfomance Pad | Yes    | Yes    | Yes    | Yes    |
 
+### Performance PAD
 
-## Reverse Engineered specs
+#### Hot-Cue (Hot-Cue Mode Button)
 
-### FX-Fase
+- Pressing a HotCue if its not set will set it to the current position.
+- If Pressed and the HotCue is set it will Jump to the HotCue position.
+- Shift+HotCue will unset the HotCue.
+- Buttons assigned to a HotCue light up.
 
-#### Common for all buttons
+#### FX-Fade (FX-Fade Mode Button)
 
-Disabling an active FX Fade sends the value of the Fader and the SuperEffect Knob, reseting them to their original values.
+| PAD | Comment                                  |
+|-----|------------------------------------------|
+| 1   | Fade out using the SuperKnob                                       |
+| 2   | Fade out using the SuperKnob                                       |
+| 3   | Fade out Looping with size 4 and reduzing the loopsize over time   |
+| 4   | TBD                                                                |
+| 5   | Fade out using the SuperKnob                                       |
+| 6   | Fade out using the SuperKnob                                       |
+| 7   | Fade out Looping with size 1                                       |
+| 8   | TBD                                                                |
 
+##### All FX-Fade Buttons
 
+- Disabling an active FX Fade sends the value of the Fader and the SuperEffect Knob, reseting them to their original values.
+
+#### Scratch (Scratch Mode Button)
+
+- While pressed the track is scratched
+
+#### Sampler (Sampler Mode Button)
+
+- Plays samples associated with the sampler slot
+- Pad lights up while sample is playes
+- When pressed while sample is played the sample is stopped
+- TBD: Shift + Pad should unload/load sample, freeing the Trans Pad
+
+#### Trans (Shift + Sampler Mode Button)
+
+- Loads selected Track in sampler
+- Shift + Pad unloads the sample
