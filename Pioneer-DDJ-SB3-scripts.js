@@ -1243,7 +1243,7 @@ PioneerDDJSB3.padScratchButtons = function (channel, control, value, status, gro
             PioneerDDJSB3.toggleScratch(deckNr, control, value, status, group);
         }
     } else {
-        if ( PioneerDDJSB3.deck[deckNr].scratchModeSave ) { 
+        if ( PioneerDDJSB3.deck[deckNr].scratchModeSave == true ) { 
             PioneerDDJSB3.toggleScratch(deckNr, control, 1, status, group);
         }
         PioneerDDJSB3.deck[deckNr].scratchModeSave = false;
