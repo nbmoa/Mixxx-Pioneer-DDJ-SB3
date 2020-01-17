@@ -1246,11 +1246,12 @@ PioneerDDJSB3.fxFadeButtons = function (channel, control, value, status, group) 
                 PioneerDDJSB3.fxFadeLoopActivePad3 = true;
                 if (PioneerDDJSB3.fxFadeLoopActivePad7 == true) {
                     PioneerDDJSB3.fxFadeLoopActivePad7 = false
+                    engine.setValue(group, 'beatloop_size', 4);
                 } else {
                     PioneerDDJSB3.fxFadeLoopBeatSizeMarker = engine.getValue(group, 'beatloop_size');
+                    engine.setValue(group, 'beatloop_4_activate', 1);
+                    engine.setValue(group, 'beatloop_4_activate', 0);
                 }
-                engine.setValue(group, 'beatloop_4_activate', 1);
-                engine.setValue(group, 'beatloop_4_activate', 0);
             } else {
                 PioneerDDJSB3.fxFadeLoopActivePad3 = false;
                 engine.setValue(group, 'reloop_exit', 1);
@@ -1264,11 +1265,12 @@ PioneerDDJSB3.fxFadeButtons = function (channel, control, value, status, group) 
                 PioneerDDJSB3.fxFadeLoopActivePad3 = true;
                 if (PioneerDDJSB3.fxFadeLoopActivePad7 == true) {
                     PioneerDDJSB3.fxFadeLoopActivePad7 = false
+                    engine.setValue(group, 'beatloop_size', 1);
                 } else {
-                    PioneerDDJSB3.fxFadeLoopBeatSizeMarker = engine.getValue(group, 'beatloop_size');
+                    PioneerDDJSB3.fxFadeLoopBeatSizeMarker = engine.getValue(group, 'beatloop_size')
+                    engine.setValue(group, 'beatloop_1_activate', 1);
+                    engine.setValue(group, 'beatloop_1_activate', 0);
                 }
-                engine.setValue(group, 'beatloop_1_activate', 1);
-                engine.setValue(group, 'beatloop_1_activate', 0);
             } else {
                 PioneerDDJSB3.fxFadeLoopActivePad3 = false;
                 engine.setValue(group, 'reloop_exit', 1);
