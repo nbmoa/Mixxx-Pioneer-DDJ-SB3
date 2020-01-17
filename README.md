@@ -27,6 +27,12 @@ Here we try and list what is working and what isn't
 
 ### Performance PAD
 
+| HotCue | FxFade | Scratch | Sample |
+|--------|--------|---------|--------|
+| Pad 1  | Pad 2  | Pad 3   | Pad 4  |
+| Pad 5  | Pad 6  | Pad 7   | Pad 8  |
+
+
 #### Hot-Cue (Hot-Cue Mode Button)
 
 - Pressing a HotCue if its not set will set it to the current position.
@@ -34,18 +40,31 @@ Here we try and list what is working and what isn't
 - Shift+HotCue will unset the HotCue.
 - Buttons assigned to a HotCue light up.
 
+#### BeatJump (Shift + HotCue Mode Button)
+
+| PAD | Function                                                           |
+|-----|--------------------------------------------------------------------|
+| 1   | While pressed continuously jumps backard on beat                   |
+| 2   | Jumps backard 1 beat                                               |
+| 3   | Jumps forward 1 beat                                               |
+| 4   | While pressed continuously jumps forward on beat                   |
+| 5   | Jumps to beginning of track                                        |
+| 6   | Jumps backard 4 beat                                               |
+| 7   | Jumps forward 4 beat                                               |
+| 8   | No function                                                        |
+
 #### FX-Fade (FX-Fade Mode Button)
 
-| PAD | Comment                                  |
-|-----|------------------------------------------|
+| PAD | Function                                                           |
+|-----|--------------------------------------------------------------------|
 | 1   | Fade out using the SuperKnob                                       |
 | 2   | Fade out using the SuperKnob                                       |
 | 3   | Fade out Looping with size 4 and reduzing the loopsize over time   |
-| 4   | TBD                                                                |
+| 4   | No function                                                        |
 | 5   | Fade out using the SuperKnob                                       |
 | 6   | Fade out using the SuperKnob                                       |
 | 7   | Fade out Looping with size 1                                       |
-| 8   | TBD                                                                |
+| 8   | No function                                                        |
 
 ##### All FX-Fade Buttons
 
@@ -53,7 +72,8 @@ Here we try and list what is working and what isn't
 
 #### Scratch (Scratch Mode Button)
 
-- While pressed the track is scratched
+- While pressed the track is scratched useing a HotCue (default 1). It will set the HotCue to the current Position and resets it afterwords
+- Shift while in Scratch mode allows to select HotCue 1-4 for scatching (Pad 1-4). Only HotCue 1 is implemented properly. Pad 5 can also be enabled and disabled but does nothing yet.
 
 #### Sampler (Sampler Mode Button)
 
