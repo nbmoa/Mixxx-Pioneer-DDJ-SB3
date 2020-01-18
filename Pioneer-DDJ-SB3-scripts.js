@@ -1236,8 +1236,8 @@ PioneerDDJSB3.padScratchButtons = function (channel, control, value, status, gro
     var deckNr = channel - 7
     if (value) {
         engine.setValue(group, 'hotcue_1_clear', 1);
-        engine.setValue(group, 'hotcue_1_clear', 0);
-        
+        // TBD remember old hotcue position 
+        // TBD to it for hotcue 1-4 and set original position when exiting
         if ( PioneerDDJSB3.scratchMode[deckNr] != true ) {
             PioneerDDJSB3.deck[deckNr].scratchModeSave = true;
             PioneerDDJSB3.toggleScratch(deckNr, control, value, status, group);
