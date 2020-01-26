@@ -143,7 +143,6 @@ PioneerDDJSB3.init = function (id) {
         'slicer': 0x60,
         'trans': 0x70
     };
-    printObject("MOA1-2")
 
     PioneerDDJSB3.nonPadLeds = {
         'headphoneCue': 0x54,
@@ -199,7 +198,6 @@ PioneerDDJSB3.init = function (id) {
     PioneerDDJSB3.effectUnit = [];
     PioneerDDJSB3.effectUnit[1] = new PioneerDDJSB3.EffectUnit(1);
     PioneerDDJSB3.effectUnit[2] = new PioneerDDJSB3.EffectUnit(2);
-    printObject("MOA1-5")
 
     // Bind Controlls
     PioneerDDJSB3.initNonDeckConnections(false);
@@ -211,7 +209,6 @@ PioneerDDJSB3.init = function (id) {
     if (PioneerDDJSB3.twinkleVumeterAutodjOn) {
         PioneerDDJSB3.vu_meter_timer = engine.beginTimer(100, "PioneerDDJSB3.vuMeterTwinkle()");
     }
-    printObject("MOA1-6")
 
     // init deck to enable all 4 decks, there is a bug that if the soundcard of the DDJ Controller is not used, the controller behaves strange and switching to deck 3 and 4 doesn't work 
     var sysex = [ 0xf0, 0x00, 0x20, 0x7f, 0x03, 0x01, 0xf7 ];
@@ -252,13 +249,10 @@ PioneerDDJSB3.initNonDeckConnections = function (isUnbinding) {
             'play': 'PioneerDDJSB3.samplerLeds',
         };
 
-    printObject("MOA2-1")
     for (samplerIndex = 1; samplerIndex <= 8; samplerIndex++) {
-    printObject("MOA2-1-" + samplerIndex)
         script.bindConnections('[Sampler'+samplerIndex+']', samplerControlsToFunctions, isUnbinding);
     }
 
-    printObject("MOA2-2")
 
     if (PioneerDDJSB3.showVumeterMaster) {
         engine.connectControl('[Master]', 'VuMeterL', 'PioneerDDJSB3.VuMeterLeds', isUnbinding);
@@ -289,18 +283,14 @@ PioneerDDJSB3.initDeckConnections = function (channelGroup, isUnbinding) {
         controlsToFunctions.slip_enabled = 'PioneerDDJSB3.slipLed';
     }
 
-    printObject("MOAe-1")
     for (i = 1; i <= 8; i++) {
         controlsToFunctions['hotcue_' + i + '_enabled'] = 'PioneerDDJSB3.hotCueLeds';
     }
 
-    printObject("MOAe-2")
     script.bindConnections(channelGroup, controlsToFunctions, isUnbinding);
-    printObject("MOAe-3")
     
     PioneerDDJSB3.nonPadLedControl(channelGroup, PioneerDDJSB3.nonPadLeds.shiftKeyLock, PioneerDDJSB3.channelGroups[channelGroup] > 1);
     PioneerDDJSB3.toggleScratch(null, null, PioneerDDJSB3.vinylModeOnStartup, null, channelGroup);
-    printObject("MOAe-4")
 };
 
 //PioneerDDJSB3.initAllConnections = function (isUnbinding) {
@@ -324,9 +314,6 @@ PioneerDDJSB3.Deck = function (deckNumber) {
     var theDeck = this;
     this.group = '[Channel' + deckNumber + ']';
 
-    // MOA TBD Is this needed?
-    this.scratchModeSave = false
-    printObject("MOA1-d-1")
     this.shiftButton = function (channel, control, value, status, group) {
         if (value > 0) {
             theDeck.shift();
@@ -337,7 +324,6 @@ PioneerDDJSB3.Deck = function (deckNumber) {
             PioneerDDJSB3.shiftPressed = false;
         }
     };
-    printObject("MOA1-d-2")
     
     this.playButton = new components.PlayButton({
         midi: [0x90 + deckNumber - 1, 0x0B],
@@ -345,7 +331,6 @@ PioneerDDJSB3.Deck = function (deckNumber) {
         shiftControl: true,
         sendShifted: true,
     });
-    printObject("MOA1-d-3")
 
     this.cueButton = new components.CueButton({
         midi: [0x90 + deckNumber - 1, 0x0C],
@@ -354,7 +339,6 @@ PioneerDDJSB3.Deck = function (deckNumber) {
         sendShifted: true,
         reverseRollOnShift: PioneerDDJSB3.reverseRollOnShiftCue,
     });
-    printObject("MOA1-d-4")
 
     this.syncButton = new components.SyncButton({
         midi: [0x90 + deckNumber - 1, 0x58],
@@ -362,7 +346,6 @@ PioneerDDJSB3.Deck = function (deckNumber) {
         shiftControl: true,
         sendShifted: true,
     });
-    printObject("MOA1-d-6")
 
     this.loopButton = function (channel, control, value, status, group) {
         printObject('MOA loopButton: channel ' + channel+', group '+ group)
@@ -416,7 +399,6 @@ PioneerDDJSB3.Deck = function (deckNumber) {
     if (deckNumber > 2) {
         effectUnitNumber -= 2;
     }
-    printObject("MOA1-d-8")
     
     this.gainKnob = new components.Pot({
         unshift: function () {
@@ -740,7 +722,6 @@ PioneerDDJSB3.padLedControl = function (deck, groupNumber, ledNumber, shift, act
         midiChannelOffset = PioneerDDJSB3.deckConverter(deck);
 
     if (midiChannelOffset !== null) {
-      printObject('msg: ' + (padLedsBaseChannel + midiChannelOffset) + ', ' + padLedControl + ', ' + (active ? 0x7F : 0x00) )
         midi.sendShortMsg(
             padLedsBaseChannel + midiChannelOffset,
             padLedControl,
@@ -936,7 +917,7 @@ PioneerDDJSB3.jogTouch = function (channel, control, value, status, group) {
 };
 
 PioneerDDJSB3.toggleScratch = function (channel, control, value, status, group) {
-    var deck = PioneerDDJSB3.channelGroups[group];
+    var deck = PioneerDDJSB3.channelGroups[PioneerDDJSB3.deckSwitchTable[group]];
     if (value) {
         PioneerDDJSB3.scratchMode[deck] = !PioneerDDJSB3.scratchMode[deck];
         if (!PioneerDDJSB3.invertVinylSlipButton) {
@@ -1233,20 +1214,20 @@ PioneerDDJSB3.shiftFxFadeButtons = function (channel, control, value, status, gr
 };
 
 PioneerDDJSB3.padScratchButtons = function (channel, control, value, status, group) {
-    var deckNr = channel - 7
+    var deckNr = PioneerDDJSB3.channelGroups[group]
     if (value) {
         engine.setValue(group, 'hotcue_1_clear', 1);
         // TBD remember old hotcue position 
         // TBD to it for hotcue 1-4 and set original position when exiting
         if ( PioneerDDJSB3.scratchMode[deckNr] != true ) {
-            PioneerDDJSB3.deck[deckNr].scratchModeSave = true;
+            PioneerDDJSB3.deck[deckNr + 1].scratchModeSave = true;
             PioneerDDJSB3.toggleScratch(deckNr, control, value, status, group);
         }
     } else {
-        if ( PioneerDDJSB3.deck[deckNr].scratchModeSave == true ) { 
+        if ( PioneerDDJSB3.deck[deckNr + 1].scratchModeSave == true ) { 
             PioneerDDJSB3.toggleScratch(deckNr, control, 1, status, group);
         }
-        PioneerDDJSB3.deck[deckNr].scratchModeSave = false;
+        PioneerDDJSB3.deck[deckNr + 1].scratchModeSave = false;
     }
 };
 
