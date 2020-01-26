@@ -21,6 +21,9 @@ var engine = {
     trigger: function (group, name) {
         console.log("Group " + group + " Name " + name);
     },
+    scratchDisable: function (group, value) {
+        console.log("Group " + group + " Value " + value);
+    },
     setValue: function (group, name, value) {
         console.log("Group " + group + " Name " + name);
         console.log("Value " + value);
