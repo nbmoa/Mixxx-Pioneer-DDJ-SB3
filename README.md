@@ -8,10 +8,9 @@ These files are based on the DDJ-SB2 files that are part of the Mixxx distributi
 * Midi Message List for the SB2 (PDF), for comparison against SB3: http://faq.pioneerdj.com/files/img/DDJ-SB2_List_of_MIDI_Messages_E.pdf
 
 ## Running the Tests
-1. Install Node
-1. Install Yarn
-1. Install Jest
-1. run yarn test
+1. Install npm
+1. npm install (In the Mixxx--Pioneer-DDJ-SB3 directory)
+1. npm run test (In the Mixxx...)
 
 ## Feature Matrix
 Here we try and list what is working and what isn't
