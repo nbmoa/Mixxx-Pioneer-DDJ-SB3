@@ -12,8 +12,15 @@ These files are based on the DDJ-SB2 files that are part of the Mixxx distributi
 1. npm install (In the Mixxx--Pioneer-DDJ-SB3 directory)
 1. npm run test (In the Mixxx...)
 
-## Feature Matrix
-Here we try and list what is working and what isn't
+## Feature List
+* Feature Specs for the SB3 (PDF): https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-sb3/ddj-sb3_hardwarediagram_seratodjliteandpro_e1.pdf
+
+The Feature Specs is used as reference and if not stated otherwise the Serato DJ Pro features are implemented
+
+### 1. Deck
+
+1 PLAY/PAUSE + Shift: Reverse Playback
+
 
 ### Global
 
