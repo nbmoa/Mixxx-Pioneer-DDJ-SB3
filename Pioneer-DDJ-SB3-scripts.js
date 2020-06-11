@@ -331,7 +331,6 @@ PioneerDDJSB3.Deck = function (deckNumber) {
     });
 
     this.loopButton = function (channel, control, value, status, group) {
-        printObject('MOA loopButton: channel ' + channel+', group '+ group)
         if (value) {
             if (engine.getValue(group, "loop_enabled")) {
               engine.setValue(group, "reloop_toggle", 1);
@@ -341,19 +340,16 @@ PioneerDDJSB3.Deck = function (deckNumber) {
         }
     };
     this.reLoopButton = function (channel, control, value, status, group) {
-        printObject('MOA reLoopButton: channel ' + channel+', group '+ group)
         if (value) {
             engine.setValue(group, "reloop_toggle", 1);
         }
     };
     this.doubleLoopButton = function (channel, control, value, status, group) {
-        printObject('MOA doubleButton: channel ' + channel+', group '+ group)
         if (value) {
             engine.setValue(group, "loop_double", 1);
         }
     };
     this.halveLoopButton = function (channel, control, value, status, group) {
-        printObject('MOA halveButton: channel ' + channel+', group '+ group)
         if (value) {
             engine.setValue(group, "loop_halve", 1);
         }
@@ -628,25 +624,24 @@ PioneerDDJSB3.keyLockButton = function (channel, control, value, status, group) 
 };
 
 PioneerDDJSB3.shiftKeyLockButton = function (channel, control, value, status, group) {
-    var deck = PioneerDDJSB3.channelGroup[group]
+    var deck = PioneerDDJSB3.channelGroups[group]
     if (value) {
       if ( PioneerDDJSB3.sliderRateRange[deck] == 0.08 ) {
         PioneerDDJSB3.sliderRateRange[deck] = 0.16
       } else if ( PioneerDDJSB3.sliderRateRange[deck] == 0.16 ) {
-        PioneerDDJSB3.sliderRateRange[deck] = 0.5
+        PioneerDDJSB3.sliderRateRange[deck] = 0.30
       } else {
         PioneerDDJSB3.sliderRateRange[deck] = 0.08
       }
       engine.setValue(group, 'rateRange', PioneerDDJSB3.sliderRateRange[deck]);
+// MOA TBD not sure what remain this is
 //        engine.stopTimer(PioneerDDJSB3.speedRateToNormalTimer[deck]);
 //        PioneerDDJSB3.speedRateToNormalTimer[deck] = engine.beginTimer(PioneerDDJSB3.speedRateToNormalTime, "PioneerDDJSB3.speedRateToNormal('" + group + "', " + deck + ")");
     }
 };
 
 PioneerDDJSB3.deckSwitch = function (channel, control, value, status, group) {
-    printObject("deckSwitch: " + "channel=" + channel + ", control=" + control + ", value=" + value + ", status=" + status + ", control=" + group);
-    if (value) {
-    }
+    // If some LED initialization needs to be fixed when switching between decks, here is the right place
 };
 
 PioneerDDJSB3.loadButton = function (channel, control, value, status, group) {
@@ -705,7 +700,6 @@ PioneerDDJSB3.nonPadLedControl = function (deck, ledNumber, active) {
 ///////////////////////////////////////////////////////////////
 
 PioneerDDJSB3.headphoneCueLed = function (value, group, control) {
-    printObject("headphoneCueLed: " + "control=" + control + ", value=" + value + ", group=" + group);
     PioneerDDJSB3.nonPadLedControl(group, PioneerDDJSB3.nonPadLeds.headphoneCue, value);
     // MOA TBD why does this not work ???
     PioneerDDJSB3.nonPadLedControl(PioneerDDJSB3.deckShiftSwitchTable[group], PioneerDDJSB3.nonPadLeds.shiftHeadphoneCue, value);
@@ -728,7 +722,6 @@ PioneerDDJSB3.loopLed = function (value, group, control) {
 };
 
 PioneerDDJSB3.samplerLeds = function (value, group, control) {
-    printObject('MOA samplerLeds - group: ' + group)
     var samplerOffset = PioneerDDJSB3.samplerGroups[group],
         channel;
 
